@@ -1,5 +1,5 @@
 header h1 {
-    color: #d9f009;
+    color: #38c01d;
 }
 nav ul {
     padding: 0;
@@ -11,7 +11,7 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: .5rem 1rem;
-    background-color: #4e1ff8;
+    background-color: #f8c51f;
 }
 main h1 {
     clear: both;
