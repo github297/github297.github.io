@@ -23,7 +23,7 @@ header h1 {
 
 /* navigation rules here */
 
-nav {background-color: #111;}
+nav {background-color: rgb(238, 205, 17);}
 nav ul {margin: 0; padding: 0;}
 nav li{list-style-type: none;}
 nav li.active {background-color: #333;}
