@@ -55,7 +55,7 @@ main {
     min-height: 10rem;
 }
 main figure.myphoto {
-    width: 100%;
+    width: 50%;
     margin: 0 0 0 2%;
     float: right;
 }
