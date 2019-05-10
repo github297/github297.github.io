@@ -35,5 +35,10 @@ main figure.myphoto img{
 
 
 /*----------- FOOTER --------------*/
+]footer {
     
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+}
 } /* end of media query */
