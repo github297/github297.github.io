@@ -1,0 +1,43 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+main figure.myphoto {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+main figure.myphoto img{
+    width: 33%;
+
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    clear: both;
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+} /* end of media query */
