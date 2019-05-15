@@ -45,8 +45,9 @@ main {
 main h1 {
     color: #7ed1f5;}
 
-main figure img {
-    width: 100%;}
+main figure.myphoto img{
+        width: 100%;
+    }
 main figure {
     width: 100%;
     margin: 0;

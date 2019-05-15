@@ -6,6 +6,9 @@ nav ul {padding-left: 2%}
 nav li {width: auto;}
 nav a {padding: .5rem 1rem;}
 
+main figure.myphoto img{
+    width: 50%;
+}
 main figure {width: 50%;}
 
 div.news {column-count: 3;}

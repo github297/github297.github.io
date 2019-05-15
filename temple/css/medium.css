@@ -3,6 +3,10 @@
   
  nav li {float: left; width: 25%}   
 
+
+ main figure.myphoto img{
+    width: 66.6%;
+}
 main figure {
     float: right;
     width: 66.6%;
