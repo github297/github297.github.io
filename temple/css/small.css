@@ -54,6 +54,11 @@ main figure {
 }
 main figcaption {text-align: center; font-size: .8rem;}
 
+div.news {
+    clear: both;
+    column-count: 2;
+    column-rule: 1pc solid #ffffff;
+}  
 footer {
     text-align: center;
     padding: 1rem 2%;
