@@ -1,10 +1,10 @@
 @media only screen and (min-widthg: 560px) {
     
   
- nav li {float: left; width: 25%}   
+nav li {float: left; width: 25%}   
 
 
- main figure.myphoto img{
+main figure.myphoto img{
     width: 66.6%;
 }
 main figure {
