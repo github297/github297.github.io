@@ -5,6 +5,7 @@ nav li {
     float: left; width: 25%;   
 }
 main figure {
+    float: right;
     width: 66.6%;
     margin-left: 2%;
     padding-bottom: .5rem;
