@@ -37,7 +37,7 @@ main figure.myphoto img{
 /*----------- FOOTER --------------*/
 footer {
     clear: both;
-    background-color: #ddd;
+    background-color: #8b8be1;
     padding: .5rem 2%;
     text-align: center;
 } /* end of media query */
