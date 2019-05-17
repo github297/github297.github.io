@@ -1,10 +1,10 @@
 /* 64em is also 1028px (if basefont is 16px) */
 @media only screen and (min-width: 64rem) {
 
-    header, nav, main, footer {
-        max-width: 64rem;
-        margin:auto;
-    }
+header, nav, main, footer {
+    max-width: 64rem;
+    margin:auto;
+}
 
 /*----------- BODY --------------*/
 
@@ -30,15 +30,17 @@ main figure.myphoto {
 }
 main figure.myphoto img{
     width: 100%;
-
 }
-div.row section:nth-child(2){width: 50%; float: left;}
-div.row section:nth-child(3){width: 50%; float: left;}
-
+div.row section:nth-child(2) {
+    width: 50%; float: left;
+}
+div.row section:nth-child(3) {
+    width: 50%; float: left;
+}
 /*----------- FOOTER --------------*/
 footer {
     clear: both;
     background-color: #8b8be1;
     padding: .5rem 2%;
     text-align: center;
-} /* end of media query */
+}

@@ -7,16 +7,24 @@
 
 
 /*----------- HEADER --------------*/
-    header img{width:auto;}
-    header h1{font-size: 2rem;}
-    header h2{font-size: 1.5rem;}
-
+header img {
+    width:auto;
+}
+header h1 {
+    font-size: 2rem;
+}
+header h2 {
+    font-size: 1.5rem;
+}
 /*----------- NAVIGATION --------------*/
-    nav ul {margin-left: 2%;}
-    nav ul li {float: left;}
-
-    nav ul li a{padding: .5rem 1rem;}
-
+nav ul {
+    margin-left: 2%;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+        padding: .5rem 1rem;}
 
 /*----------- MAIN --------------*/
 main {
@@ -31,12 +39,16 @@ main figure.myphoto {
 main figure.myphoto img{
     width: 100%;
 }
-div.row section:nth-child(2){width: 50%; float: left;}
-div.row section:nth-child(3){width: 50%; float: left;}
+div.row section:nth-child(2) {
+    width: 50%; float: left;
+}
+div.row section:nth-child(3) {
+    width: 50%; float: left;
+}
 /*----------- FOOTER --------------*/
 footer {
     clear: both;
     background-color: #8b8be1;
     padding: .5rem 2%;
     text-align: center;
-} /* end of media query */
+}
