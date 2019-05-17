@@ -82,7 +82,9 @@ div.row {
 }
 div.row section {
     padding: 0 2%;
-    background-color: #8b8be1;
+}
+div.row section:nth-child(3) {
+    background-color: #e8e8e8; 
 }
 main h1 {
     padding: 0;
@@ -90,7 +92,7 @@ main h1 {
 /*----------- FOOTER --------------*/
 footer {
     clear: both;
-    background-color: #8b8be1;
+    background-color: #4f6ee8;
     padding: .5rem 2%;
     text-align: center;
     font-family: 'Exo', sans-serif
