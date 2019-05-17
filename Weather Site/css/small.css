@@ -83,6 +83,9 @@ div.row {
 div.row section {
     padding: 0 2%;
 }
+div.row section:nth-child(2) {
+    background-color: #e8e8e8; 
+}
 div.row section:nth-child(3) {
     background-color: #e8e8e8; 
 }
