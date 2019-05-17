@@ -65,6 +65,8 @@ main figure.myphoto img{
 main figure.myphoto figcaption{
 text-align: center;font-size: .75rem
 }
+figure {margin: 0; width: 100%;}
+figure img {width: 100%;}
 /*----------- FOOTER --------------*/
 footer {
     clear: both;
