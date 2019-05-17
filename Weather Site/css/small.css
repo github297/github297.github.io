@@ -90,7 +90,7 @@ main h1 {
 footer {
     clear: both;
     background-color: #8b8be1;
-    padding: .5rem 2%;
+    padding: 0;
     text-align: center;
     font-family: 'Exo', sans-serif
 }
