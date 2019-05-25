@@ -59,10 +59,10 @@ main figure.myphoto {
 main figure.myphoto img{
     width: 100%;
 }
-div.row section:nth-child(2) {
+div.row section:nth-child(3) {
     width: 50%; float: left;
 }
-div.row section:nth-child(3) {
+div.row section:nth-child(4) {
     width: 50%; float: left;
 }
 /*----------- FOOTER --------------*/
