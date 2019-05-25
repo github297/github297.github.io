@@ -92,6 +92,9 @@ figure img {
 iframe {
     width: 100%; height: 300px;
 }
+.table {
+display: none;
+}
 div.row {
     clear: both;
 }

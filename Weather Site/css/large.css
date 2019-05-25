@@ -45,6 +45,9 @@ main figure.myphoto {
 main figure.myphoto img{
     width: 100%;
 }
+.table {
+    display: block;
+    }
 div.row section:nth-child(2) {
     width: 50%; float: left;
 }
