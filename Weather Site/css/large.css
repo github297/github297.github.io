@@ -26,10 +26,8 @@ main {
     margin: 10px auto;
     position: relative;
     border: 1px dashed cyan;
-    width: 95%;
-    height: 300px;
+    width: 10%;
 }
-
 .weathersummary {
     position: absolute;
     top: 25px;
