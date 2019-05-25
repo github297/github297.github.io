@@ -11,10 +11,10 @@ header, nav, main, footer {
     margin: 10px auto;
     position: relative;
     border: 1px dashed cyan;
-    width: 960px;
+    width: 95%;
     height: 300px;
-
 }
+
 
 
 .hero-ph {
