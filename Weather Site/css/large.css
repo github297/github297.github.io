@@ -16,7 +16,7 @@ header, nav, main, footer {
     */ 
 }
 
-
+/*
 .hero-ph {
    margin: 10px auto;
    background-color: rgb(207, 14, 14);
@@ -25,15 +25,15 @@ header, nav, main, footer {
    height: 250px; 
 }
 
-
+*/
 
 .weathersummary {
     position: absolute;
-    top: 50px;
+    top: 25px;
     left: 50px;
-    background: radial-gradient(green, lightgreen);
-    border: 1px solid green;
-    padding: .5rem;
+    background: radial-gradient(#eee, lightgreen);
+    border: 1px solid #000;
+    padding: 1.5rem;
     box-shadow: 0 0 30px #777;
 }
 
