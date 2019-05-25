@@ -45,9 +45,6 @@ div.row section:nth-child(2) {
 div.row section:nth-child(3) {
     width: 50%; float: left;
 }
-.footerbackground {
-    background-color: #e8e8e8
-}
 /*----------- FOOTER --------------*/
 
 footer {
