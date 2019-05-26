@@ -40,7 +40,7 @@ main {
 .weathersummary {
     position: absolute;
     top: 25px;
-    left: 50px;
+    left: 25px;
     background: radial-gradient(#4f6ee8,#8b8be1);
     border: 1px solid #000;
     padding: 1.5rem;
