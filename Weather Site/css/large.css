@@ -25,7 +25,6 @@ main {
 .herodiv {
     margin: 10px auto;
     position: relative;
-    border: 1px dashed cyan;
     width: 100%;
 }
 .weathersummary {
