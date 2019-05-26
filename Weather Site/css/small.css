@@ -61,7 +61,7 @@ main {
     margin: 10px auto;
     position: relative;
     border: 1px dashed cyan;
-    width: 10%;
+    width: 100%;
 }
 .weathersummary {
     position: absolute;
