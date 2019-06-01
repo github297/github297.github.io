@@ -63,8 +63,8 @@ main {
     width: 100%;
     float: center;
 }
-.herodiv figure.herodiv {
-    width: 50%;
+.herodiv figure.herodiv img{
+    width: 100%;
 }
 .weathersummary {
     position: absolute;
