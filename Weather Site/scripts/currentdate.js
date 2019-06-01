@@ -1,4 +1,4 @@
-let current = document.getElementById("holder".innerHTML);
+let current = document.getElementById("date".innerHTML);
 
 let date = getDate + getDay + getMonth + getFullYear;
 
