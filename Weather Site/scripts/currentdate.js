@@ -1,10 +1,5 @@
-function currentDate()
-{
-    var d = new Date();
-    var n = new Day();
-    var m = new Month();
-    var y = new Year();
+let current = document.getElementById("holder".innerHTML);
 
-    var c = d.getDate() + ", " + n.getDay() + m.getMonth() + y.getFullYear();
-    document.getElementById("date").innerHTML = c;
-}
+let date = getDate + getDay + getMonth + getFullYear;
+
+document.getElementById("output").innerHTML = date;
