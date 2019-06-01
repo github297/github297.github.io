@@ -27,6 +27,14 @@ header h2 {
     margin: 0; font-family: 'Exo', sans-serif; font-weight: normal; font-size: 1rem;
 }
 /*----------- NAVIGATION --------------*/
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size:  1.5rem;
+    
+}
+
 nav {
     background-color: #4f6ee8;
     font-family: 'Roboto', sans-serif;
@@ -43,6 +51,7 @@ nav ul li a {
     text-decoration: none;
     font-size: .9rem;
     text-align: center;
+    border-top: 1px solid rgba(0,0,0,0.3);
 }
 nav ul li a:hover {
     background-color: #8b8be1;
@@ -51,6 +60,9 @@ nav ul li a:hover {
 nav ul li.active a {
     background-color: #b9c2ff;
     color: #fff;
+}
+nav ul.hide {
+    display: none;
 }
 /*----------- MAIN --------------*/
 main {
