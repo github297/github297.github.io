@@ -101,7 +101,7 @@ div.row {
 div.row section {
     padding: 0;
     background-color: #e8e8e8;
-    clear: both;
+    clear: left;
 }
 /*
 div.row section:nth-child(2) {
