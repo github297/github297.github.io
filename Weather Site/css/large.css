@@ -57,7 +57,7 @@ main figure.myphoto img{
     }
 div.row section:nth-child(2) {
     width: 50%; float: left; margin: 0;
-    padding: 0; 
+    padding: 0; height: 300px;
 }
 div.row section:nth-child(3) {
     width: 50%; float: left; margin: 0; 
