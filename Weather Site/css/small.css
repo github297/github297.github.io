@@ -60,7 +60,7 @@ main {
 .herodiv {
     margin: 10px auto;
     position: relative;
-    width: 50%;
+    width: 100%;
     float: center;
 }
 .herodiv figure.herodiv {
