@@ -63,10 +63,10 @@ main figure.myphoto img{
     text-align: left;
     }
 div.row section:nth-child(2) {
-    width: 50%; float: left;
+    width: 50%; float: left; height: 100%; 
 }
 div.row section:nth-child(3) {
-    width: 50%; float: left;
+    width: 50%; float: left; height: 100%; 
 }
 /*----------- FOOTER --------------*/
 
