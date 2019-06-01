@@ -5,6 +5,6 @@ function currentDate()
     var m = new Month();
     var y = new Year();
 
-    var c = d.getDay() + ", " + d.getDate() + d.getMonth() + d.getFullYear();
+    var c = d.getDate() + ", " + n.getDay() + m.getMonth() + y.getFullYear();
     document.getElementById("date").innerHTML = c;
 }
