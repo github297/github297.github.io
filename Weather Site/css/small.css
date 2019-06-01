@@ -99,13 +99,16 @@ div.row {
 }
 div.row section {
     padding: 0;
+    background-color: #e8e8e8;
 }
+/*
 div.row section:nth-child(2) {
     background-color: #e8e8e8; 
 }
 div.row section:nth-child(3) {
     background-color: #e8e8e8; 
 }
+*/
 main h1 {
     padding: 0;
 }
