@@ -56,12 +56,10 @@ main figure.myphoto img{
     text-align: left;
     }
 div.row section:nth-child(2) {
-    width: 50%; float: left; margin: 0;
-    padding: 0; height: 300px;
+    width: 50%; float: left; margin: 0; padding: 0; height: 250px;
 }
 div.row section:nth-child(3) {
-    width: 50%; float: left; margin: 0; 
-    padding: 0;
+    width: 50%; float: left; margin: 0; padding: 0; height: 250px;
 }
 
 
