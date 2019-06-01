@@ -96,12 +96,11 @@ iframe {
 display: none;
 }
 div.row {
-    clear: both;
+
 }
 div.row section {
     padding: 0;
     background-color: #e8e8e8;
-    clear: left;
 }
 /*
 div.row section:nth-child(2) {
