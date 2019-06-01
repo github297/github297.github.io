@@ -63,6 +63,9 @@ main {
     width: 50%;
     float: center;
 }
+.herodiv figure.herodiv {
+    width: 50;
+}
 .weathersummary {
     position: absolute;
     top: 25px;
