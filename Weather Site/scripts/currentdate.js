@@ -10,9 +10,3 @@ today = day + ', ' + number + month + year;
 document.write(today);
 
 }
-
-
-
-
-
-
