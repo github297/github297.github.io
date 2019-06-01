@@ -104,7 +104,10 @@
 
 <section>
     <figure class="myphoto">
-        <img src="images/Apollo_10_earthrisecopy.jpg" alt="Apollo 10 Earthrise">
+        <picture>
+            <source srcset="images/Apollo_10_earthrisecopy" media="(min-width: 560px)">
+            <img src="images/blue-sky-bright-clouds-small.jpg" alt ="Apollo 10 Earthrise">">
+        </picture>
     </figure>
     <h2>This Day in History</h2>
         <p>On this day in 1969, Apollo 10 launched towards the moon to complete the first ever manned mission to orbit the moon. Apollo 10 was a practice run for NASA and the upcoming historic Apollo 11 mission that would launch two months later. Astronauts Thomas Stafford, John Young, and Eugene Cernan flew 250,000 miles in space to reach the moon. Once there, Stafford and Cernan piloted the lunar module to an orbit 8.5 miles above the surface of the moon. John Young was left to pilot the command module and was the first person to orbit the moon solo. For this particular mission, the lunar module was named "Snoopy" and the command module was named "Charlie Brown."</p>
@@ -132,7 +135,9 @@
     &copy; 2019 &bull; Justin Faust
 </footer>
 
-<script src="scripts/hamburger.js"
+<script 
+src="scripts/hamburger.js"
 src="scripts/currentdate.js"></script>
+
 </body>
 </html>
