@@ -60,7 +60,7 @@ main {
 .herodiv {
     margin: 10px auto;
     position: relative;
-    width: 100%;
+    width: 50%;
 }
 .weathersummary {
     position: absolute;
