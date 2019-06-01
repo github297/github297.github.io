@@ -1,12 +1,10 @@
 function currentDate()
 {
-    var today = newDate();
-    var day = String(today.getDate()).padStart(2,'0');
-    var number = newDate();
-    var month = String(today.getMonth() +1).padStart(2,'0');
-    var year = today.getFullYear();   
-    
-today = day + ', ' + number + month + year;
-document.write(today);
+    var d = new Date();
+    var n = new Day();
+    var m = new Month();
+    var y = new Year();
 
+    var c = d.getDay() + ", " + d.getDate() + d.getMonth() + d.getFullYear();
+    document.getElementById("date").innerHTML = c;
 }
