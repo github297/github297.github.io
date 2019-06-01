@@ -101,7 +101,11 @@ display: none;
 div.row {
 
 }
-div.row section {
+div.row section.address {
+    padding: 0;
+    background-color: #e8e8e8;
+}
+div.row section.phone {
     padding: 0;
     background-color: #e8e8e8;
 }
