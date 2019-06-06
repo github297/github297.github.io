@@ -16,7 +16,7 @@ header, nav, main, footer {
 /*----------- NAVIGATION --------------*/
 
 nav ul.hide {
-    display: none;
+    display: block;
 }
 
 /*----------- MAIN --------------*/

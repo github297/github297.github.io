@@ -21,7 +21,7 @@ nav ul {
     margin-left: 2%;
 }
 nav ul.hide {
-    display: none;
+    display: block;
 }
 nav ul li {
     float: left;
