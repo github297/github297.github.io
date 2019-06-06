@@ -32,9 +32,7 @@ nav button {
     background-color: transparent;
     border: none;
     font-size:  1.5rem;
-    
 }
-
 nav {
     background-color: #4f6ee8;
     font-family: 'Roboto', sans-serif;
@@ -111,25 +109,13 @@ iframe {
 display: none;
 }
 div.row {
-
 }
-/*
-div.row section.address {
-    padding: 0;
-    background-color: #e8e8e8;
-}
-div.row section.phone {
-    padding: 0;
-    background-color: #e8e8e8;
-}
-*/
 div.row section:nth-child(2) {
     background-color: #e8e8e8;
 }
 div.row section:nth-child(3) {
     background-color: #e8e8e8;
 }
-
 main h1 {
     padding: 0;
 }
