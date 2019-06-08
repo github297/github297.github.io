@@ -59,12 +59,10 @@ main figure.myphoto img{
     padding: 5px;
     text-align: left;
 }
-
 .norm:hover {box-shadow: 0 0 50px #333;} 
 
 div.gallery figure {
-    flex-basis: 29%;
-        
+    flex-basis: 29%;       
 } 
 div.row section:nth-child(2) {
     width: 50%; float: left; margin: 0; padding: 0; height: 230px;

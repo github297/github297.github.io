@@ -72,16 +72,13 @@ main {
 div.gallery {
     display: flex; 
     flex-wrap: wrap;
-
 }
 div.gallery figure {
     flex-basis: 96%;
     margin: 1rem 2%;
-
 }
 div.gallery figure img {
-    width: 100%;
-    
+    width: 100%;  
 }
 .herodiv {
     margin: 10px auto;
