@@ -56,6 +56,12 @@ main figure.myphoto img{
     padding: 5px;
     text-align: left;
     }
+
+div.gallery figure {
+    flex-basis: 29%;
+    margin: 1rem 2%;
+        
+} 
 div.row section:nth-child(2) {
     width: 50%; float: left; margin: 0; padding: 0; height: 230px;
 }
