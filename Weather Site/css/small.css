@@ -69,6 +69,10 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
+div.gallery {
+    display: flex;
+
+}
 .herodiv {
     margin: 10px auto;
     position: relative;
