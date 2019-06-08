@@ -16,6 +16,8 @@ header {
     padding: .5rem 2%;
     background-color: #e8e8e8;
     font-family: 'Exo', sans-serif;
+    display: grid;
+    grid-template-columns: 110px auto;
 }
 header img{
     float: left; margin-right: 10px; width: 50px;
