@@ -77,11 +77,12 @@ div.gallery {
 
 div.gallery figure {
     flex-basis: 100%;
+    margin: 1rem 2%;
 
 }
 div.gallery figure img {
     width: 100%;
-
+    
 }
 .herodiv {
     margin: 10px auto;
