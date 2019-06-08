@@ -70,7 +70,17 @@ main {
     min-height: 10rem;
 }
 div.gallery {
-    display: flex;
+    display: flex; 
+    flex-wrap: wrap;
+
+}
+
+div.gallery figure {
+    flex-basis: 100%;
+
+}
+div.gallery figure img {
+    width: 100%;
 
 }
 .herodiv {
