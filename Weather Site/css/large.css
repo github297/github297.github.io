@@ -59,7 +59,6 @@ main figure.myphoto img{
 
 div.gallery figure {
     flex-basis: 29%;
-    margin: 1rem 2%;
         
 } 
 div.row section:nth-child(2) {
