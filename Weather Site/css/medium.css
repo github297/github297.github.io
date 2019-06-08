@@ -42,7 +42,7 @@ main {
 .weathersummary {
     position: absolute;
     top: 15px;
-    left: 15px;
+    left: 15px;`
     background: radial-gradient(#4f6ee8,#8b8be1);
     border: 1px solid #000;
     padding: .5rem;
@@ -64,6 +64,12 @@ main figure.myphoto img{
     border-spacing: 10px;
     padding: 5px;
     text-align: left;
+    }
+
+div.gallery figure {
+    flex-basis: 50%;
+    margin: 1rem 2%;
+    
     }
 div.row section:nth-child(2) {
     width: 50%; float: left; margin: 0; padding: 0; height: 230px;

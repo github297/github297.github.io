@@ -76,7 +76,7 @@ div.gallery {
 }
 
 div.gallery figure {
-    flex-basis: 100%;
+    flex-basis: 98%;
     margin: 1rem 2%;
 
 }
