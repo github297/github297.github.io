@@ -35,6 +35,8 @@ main {
     min-height: 10rem;
 }
 
+.norm:hover {box-shadow: 0 0 50px #333;}
+
 .herodiv {
     margin: 10px auto;
     position: relative;
