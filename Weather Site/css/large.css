@@ -23,13 +23,11 @@ header h2 {
 nav ul.hide {
     display: block;
 }
-
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
     min-height: 10rem;
 }
-.norm:hover {box-shadow: 0 0 50px #333;} 
 .herodiv {
     margin: 10px auto;
     position: relative;
@@ -60,7 +58,9 @@ main figure.myphoto img{
     border-spacing: 10px;
     padding: 5px;
     text-align: left;
-    }
+}
+
+.norm:hover {box-shadow: 0 0 50px #333;} 
 
 div.gallery figure {
     flex-basis: 29%;
@@ -72,11 +72,7 @@ div.row section:nth-child(2) {
 div.row section:nth-child(3) {
     width: 50%; float: left; margin: 0; padding: 0; height: 230px;
 }
-
-
 /*----------- FOOTER --------------*/
-
-
 footer {
     clear: both;
     background-color: #8b8be1;

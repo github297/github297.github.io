@@ -69,13 +69,11 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
-.norm:hover {box-shadow: 0 0 50px #333;} 
 div.gallery {
     display: flex; 
     flex-wrap: wrap;
 
 }
-
 div.gallery figure {
     flex-basis: 96%;
     margin: 1rem 2%;
