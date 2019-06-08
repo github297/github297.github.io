@@ -11,8 +11,9 @@ header, nav, main, footer {
 
 /*----------- HEADER --------------*/
 
-
-
+header h1 {
+    font-size: 2rem; margin-top: 1.5rem;
+}
 /*----------- NAVIGATION --------------*/
 
 nav ul.hide {
