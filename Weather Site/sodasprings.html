@@ -10,7 +10,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
-
 <!-- STYLE SHEETS -->
 <link href="css/normalize.css" rel="stylesheet">
 <!-- phone-default -->
@@ -20,63 +19,132 @@
 <!-- enhance-desktop -->
 <link href="css/large.css" rel="stylesheet">
 
-
-     
 </head>
+
 <body>
 <!-- HEADER HERE -->
-	<header class="clearfix">
-	<img src="images/jfweathersitelogo.png" alt="weather site logo">
-    <h1>WeatherHome.org</h1>
-    <h2>Where the weather is always pleasant</h2>    
+<header class="clearfix">
+    <img src="images/jfweathersitelogo.png" alt="weather site logo">
+    <div>
+        <h1>WeatherHome.org</h1>
+        <h2>Where the weather is always pleasant</h2> 
+    </div>   
 </header>
-    
-    
+        
 <!-- NAVIGATION HERE -->
-    <nav class="clearfix">
-        <ul >
-            <li><a href="index.html">Home</a></li>
-            <li><a href="preston.html">Preston</a></li>
-            <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li>   
-            <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li> 
-        </ul>
-    </nav>
-    
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Preston</a></li>
+        <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>   
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li> 
+    </ul>
+</nav>
     
 <!-- CONTENT HERE -->
-<div class="row">
-
 <main>
-    <section>
     <h1>Preston</h1>
-        <figure class="myphoto">
-        <img src="images/Apollo_10_earthrisecopy.jpg" alt="Apollo 10 Earthrise">
-        </figure>
+<div class="herodiv">
+    <figure class="herodiv">
+    <picture>
+        <source srcset="images/blue-sky-bright-clouds-large.jpg" media="(min-width: 560px)">
+    <img src="images/blue-sky-bright-clouds-small.jpg" alt ="Green grass and blue sky">
+        </picture>
+</figure>
+<section class="weathersummary">
+    <h3>Current Conditions</h3>
+        <p>Partly Cloudy</p>
+        <p>Low: 36 degrees</p>
+        <p>High: 87 degrees</p>
+</section>
+</div>
+<div class="table">
+<table>
+    <tr>
+        <th>Day</th>
+        <th>Description</th>
+        <th>High/Low</th>
+        <th>Wind</th>
+    </tr>
+    <tr>
+        <td>Monday</td>
+        <td>Partly Cloudy</td>
+        <td>36/59</td>
+        <td>West 8mph</td>
+    </tr>
+    <tr>
+        <td>Tuesday</td>
+        <td>Showers</td>
+        <td>30/53</td>
+        <td>SouthWest 4mph</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Thursday</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Friday</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</div>
+
+<div class="row"> 
+
+<section>
+    <figure class="myphoto">
+        <picture>
+            <source srcset="images/Apollo_10_earthrisecopy.jpg" media="(min-width: 560px)">
+            <img src="images/Apollo_10_earthrise-small.jpg" alt ="Apollo 10 Earthrise">
+        </picture>
+    </figure>
     <h2>This Day in History</h2>
         <p>On this day in 1969, Apollo 10 launched towards the moon to complete the first ever manned mission to orbit the moon. Apollo 10 was a practice run for NASA and the upcoming historic Apollo 11 mission that would launch two months later. Astronauts Thomas Stafford, John Young, and Eugene Cernan flew 250,000 miles in space to reach the moon. Once there, Stafford and Cernan piloted the lunar module to an orbit 8.5 miles above the surface of the moon. John Young was left to pilot the command module and was the first person to orbit the moon solo. For this particular mission, the lunar module was named "Snoopy" and the command module was named "Charlie Brown."</p>
-        <a href="https://en.wikipedia.org/wiki/Apollo_10">Apollo 10 Wikipedia Article</a>
-    </section>
+    <a href="https://en.wikipedia.org/wiki/Apollo_10">Apollo 10 Wikipedia Article</a>
+</section>
 
-    <section>
+<section>
     <h3>Address:</h3>
-        <p>The Weather Center<br>123 Main Street<br>Franklin, MI 87654</p>
-    </section>
-    
+        <p>The Weather Center</p>
+        <p>123 Main Street</p>
+        <p>Franklin, MI 87654</p>
+</section>
+
 <section>
     <h3>Phone:</h3>
-        <p>(801) 555-1234</p>
-            <h3>Email:</h3>
-        <p>fau13011@byui.edu</p>
+    <p>(801) 555-1234</p>
+    <h3>Email:</h3>
+    <p>fau13011@byui.edu</p>
 </section>
-</div> 
-    </main>
-      
+
+</div>
+</main>     
 <!-- FOOTER HERE -->   
-    <footer>
-        &copy; 2019 &bull; Justin Faust
-    </footer>
+<footer>
+    <p>&copy;<span id="date"></span> &bull; Justin Faust</p>
+    
+</footer>
+
+<script src="scripts/hamburger.js">
+
+let date = getDate + getDay + getMonth + getFullYear;
+
+document.getElementById("output").innerHTML = date;
+
+</script>
 
 </body>
 </html>
