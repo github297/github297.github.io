@@ -2,6 +2,7 @@
 
 table#t1 {
     border: 1px grey;
+    border-collapse: collapse;
 }
 
 table#t1 tr:nth-child(even){
