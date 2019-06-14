@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
-.title {
+.tile {
     background-color: #7fb9c2;
     text-align: center;
     color: white;
@@ -22,4 +22,5 @@
 }
 .goals {
     background-color: #628ca6;
+    text-align: center;
 }
