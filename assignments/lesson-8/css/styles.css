@@ -2,6 +2,7 @@
 
 table#t1 {
     border: 1px black;
+    box-shadow: 0 0 2 2;
 }
 
 table#t1 tr:nth-child(even){
