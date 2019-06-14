@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
+table#t1 {
+    border: 1px solid black;
+}
 
 table#t1 tr:nth-child(even){
     background-color: #e7f0ed;
@@ -7,10 +10,6 @@ table#t1 tr:nth-child(even){
 table#t1 tr:nth-child(even){
     background-color: #e7ffed;
 }
-table#t1 {
-
-}
-
 th {
     background-color: #7fb9c2;
     text-align: center;
@@ -23,6 +22,7 @@ th {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     color: white;
+    padding: 10px;
 
 }
 
@@ -30,17 +30,19 @@ th {
     background-color: #e7f0ed;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-
+    padding: 10px;
 }
 
 .oporows {
   
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-
+    padding: 10px;
 }
 .goals {
     background-color: #628ca6;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    color: white;
 }
