@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
-.tile {
+
+table#t1 tr:nth-child(even){
+    background-color: #e7f0ed;
+}
+table#t1 tr:nth-child(even){
+    background-color: #e7ffed;
+}
+
+table#t1 {
     background-color: #7fb9c2;
     text-align: center;
     color: white;
@@ -16,14 +24,14 @@
 }
 
 .rows {
-    background-color: #e7f0ed;
+
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
 
 }
 
 .oporows {
-    background-color: #e7ffed;
+  
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
 
