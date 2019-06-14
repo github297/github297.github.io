@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 table#t1 {
-    border: 1px solid black;
+    border: 1px grey;
 }
 
 table#t1 tr:nth-child(even){
