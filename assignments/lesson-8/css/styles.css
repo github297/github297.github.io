@@ -1,4 +1,4 @@
-font-family 'Ubuntu', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 .title {
     background-color: #7fb9c2;
