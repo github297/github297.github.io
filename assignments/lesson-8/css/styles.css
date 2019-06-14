@@ -1,17 +1,21 @@
-font-family: 'Ubuntu', sans-serif;
+font-family { 'Ubuntu', sans-serif;}
 
 .title {
     background-color: #7fb9c2;
+    text-align: center;
 }
 
 .headings {
     background-color: #628ca6;
+    text-align: center;
 }
 
 .rows {
     background-color: #e7ffed;
+    text-align: center;
 }
 
-.oporows. {
+.oporows {
     background-color: #e7f0ed;
+    text-align: center;
 }
