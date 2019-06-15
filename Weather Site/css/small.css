@@ -172,7 +172,7 @@ form label.top input, form label.top select {
 }
 form label.mid {
     display: block;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
     color: #555;
 }
 form input.submitBtn {
