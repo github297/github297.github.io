@@ -62,8 +62,8 @@
         
     <fieldset>
         <legend>Severe Weather Notification System</legend>
-        <label class="sbs">Storm Date <input type="date" name="date"></label>
-            <label class="sbs"Storm Type>
+        <label class="mid">Storm Date <input type="date" name="date"></label>
+            <label class="mid"Storm Type>
                 <div>Please select all that apply</div>
             <div>
                 <input type="checkbox" id="Flash Flood" name="Flash Flood" value="Flash Flood">
@@ -81,10 +81,11 @@
                 <input type="checkbox" id="Tornado" name="Tornado" value="Tornado">
                 <label for="Tornado">Tornado</label>
             </div>
+<div>
  <label for="rating">Rating (1 to 10):</label>
  <input type="range" id="rating" value="" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
     <span id="ratingvalue"></span>
-        <label class="top"Course Subject>
+        <label class="mid"Course Subject>
             <select name="subject">
             <option value="">Select Region...&#9662;<option>
             <option value="Preston">Preston</option>
@@ -92,16 +93,17 @@
             <option value="Fish Haven">Fish Haven</option>
            </select>
         </label>
-        
+</div>
+
 <div>Are you currently in danger from the storm?</div>
-    <label class="sbs"><input type="radio" name="UserInDanger" value="Yes">Yes</label>
-    <label class="sbs"><input type="radio" name="UserInDanger" value="No">No</label>
-    <label class="sbs"><input type="radio" name="UserInDanger" value="Maybe">Maybe</label>
+    <label class="mid"><input type="radio" name="UserInDanger" value="Yes">Yes</label>
+    <label class="mid"><input type="radio" name="UserInDanger" value="No">No</label>
+    <label class="mid"><input type="radio" name="UserInDanger" value="Maybe">Maybe</label>
 </fieldset>
     
 <fieldset>
     <div>Additional Information</div>    
-        <label class="sbs"><input type="textarea" name="comments">Comments</label>
+        <label class="mid"><input type="textarea" name="comments">Comments</label>
 </fieldset>
 
 <input type="submit" value = "Send Information" class="submitBtn"> 
