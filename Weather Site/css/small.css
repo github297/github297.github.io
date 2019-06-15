@@ -172,7 +172,7 @@ form label.top input, form label.top select {
 }
 form label.mid {
     display: block;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     color: #555;
 }
 form input.submitBtn {
@@ -186,7 +186,7 @@ form input.submitBtn {
     max-width: 20rem;
 }
 form label.top input:required {
-    border-top-left-radius: salmon 4px;
+    border-left: salmon 4px;
 }
 form label.top input:required:valid {
     
