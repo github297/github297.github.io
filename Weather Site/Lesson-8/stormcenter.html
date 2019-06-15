@@ -36,18 +36,17 @@
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
         <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="preston.html">Preston</a></li>
+        <li><a href="#">Preston</a></li>
         <li><a href="sodasprings.html">Soda Springs</a></li>
         <li><a href="fishhaven.html">Fish Haven</a></li>   
-        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li class="active"><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li> 
     </ul>
 </nav>
-
     
 <!-- CONTENT HERE -->
 <main>
-    <h1>Preston</h1>
+    <h1>StormCenter</h1>
 <div class="herodiv">
     <figure class="herodiv">
     <picture>
@@ -133,16 +132,19 @@
 
 </div>
 </main>     
-<!-- FOOTER HERE -->
-
+<!-- FOOTER HERE -->   
 <footer>
-    <p id="output">&copy; &bull; Justin Faust</p>
+    <p>&copy;<span id="date"></span> &bull; Justin Faust</p>
     
 </footer>
 
-<script src="scripts/hamburger.js"></script>
-<script src="scripts/currentdate.js"></script>
-<script src="scripts/windchill.js"></script>
+<script src="scripts/hamburger.js">
+
+let date = getDate + getDay + getMonth + getFullYear;
+
+document.getElementById("output").innerHTML = date;
+
+</script>
 
 </body>
 </html>
