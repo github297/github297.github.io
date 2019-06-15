@@ -162,10 +162,10 @@ form label.top input, form label.top select {
     border: solid 1px rgb(159, 205, 216);
     border-radius: 4px;
     padding: .75rem;
-    color: rgb(253, 251, 101);
+    color: rgba(0,0,0,0.5);
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0, 0, 0.1, 0);
+    background-color: rgba(0, 0, 0, 0.1);
     
 }
 
