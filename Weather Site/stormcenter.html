@@ -115,43 +115,49 @@
             <label class="top">Zipcode <input type="number" name="zipcode" required></label>
         </fieldset>
         
-        <fieldset>
+    <fieldset>
         <legend>Severe Weather Notification System</legend>
         <label class="sbs">Storm Date <input type="date" name="date"></label>
-        <label class="top"Storm Type>
-        <div>Please select all that apply</div>
+            <label class="top"Storm Type>
+                <div>Please select all that apply</div>
             <div>
-                    <input type="checkbox" id="Flash Flood" name="Flash Flood" value="Flash Flood">
-                    <label for="Flash Flood">Flash Flood</label>
+                <input type="checkbox" id="Flash Flood" name="Flash Flood" value="Flash Flood">
+                <label for="Flash Flood">Flash Flood</label>
            
-                    <input type="checkbox" id="Hail" name="Hail" value="Hail">
-                    <label for="Hail">Hail</label>
+                <input type="checkbox" id="Hail" name="Hail" value="Hail">
+                <label for="Hail">Hail</label>
     
-                    <input type="checkbox" id="Hurricane" name="Hurricane" value="Hurricane">
-                    <label for="Hurricane">Hurricane</label>
+                <input type="checkbox" id="Hurricane" name="Hurricane" value="Hurricane">
+                <label for="Hurricane">Hurricane</label>
         
-                    <input type="checkbox" id="Thunderstorm" name="Thunderstorm" value="Thunderstorm">
-                    <label for="Thunderstorm">Thunderstorm</label>
+                <input type="checkbox" id="Thunderstorm" name="Thunderstorm" value="Thunderstorm">
+                <label for="Thunderstorm">Thunderstorm</label>
 
-                    <input type="checkbox" id="Tornado" name="Tornado" value="Tornado">
-                    <label for="Tornado">Tornado</label>
-                </div>
-
-    <label for="rating">Rating (1 to 10):</label>
-		<input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-		<span id="ratingvalue">5</span>
-            </fieldset>
-
+                <input type="checkbox" id="Tornado" name="Tornado" value="Tornado">
+                <label for="Tornado">Tornado</label>
+            </div>
+ <label for="rating">Rating (1 to 10):</label>
+ <input type="range" id="rating" value="" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+    <span id="ratingvalue"></span>
+        <label class="top"Course Subject>
+            <select name="subject">
+            <option value="">Select Region...&#9662;<option>
+            <option value="Preston">Preston</option>
+            <option value="Sugar City">Sugar City</option>
+            <option value="Fish Haven">Fish Haven</option>
+           </select>
         </label>
-
-        <label class="sbs"><input type="radio" name="audience" value="beginner">Beginner</label>
-        <label class="sbs"><input type="radio" name="audience" value="Intermediate">Intermediate</label>
-        <label class="sbs"><input type="radio" name="audience" value="Advanced">Advanced</label>
-            
-    <div>Additional Information</div>    
-        <label class="sbs"><input type="textarea" name="comments">Comments</label>
-
-        </fieldset>
+        
+<div>Are you currently in danger from the storm?</div>
+    <label class="sbs"><input type="radio" name="UserInDanger" value="Yes">Yes</label>
+    <label class="sbs"><input type="radio" name="UserInDanger" value="No">No</label>
+    <label class="sbs"><input type="radio" name="UserInDanger" value="Maybe">Maybe</label>
+</fieldset>
+    
+<fieldset>
+        <div>Additional Information</div>    
+            <label class="sbs"><input type="textarea" name="comments">Comments</label>
+</fieldset>
         
         <fieldset>
         <legend>Funding</legend>
