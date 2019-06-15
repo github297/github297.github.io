@@ -124,6 +124,7 @@ iframe {
 display: none;
 }
 div.row {
+background-color: #5c358f;
 }
 div.row section:nth-child(2) {
     background-color: #e8e8e8;
@@ -135,6 +136,7 @@ main h1 {
     padding: 0;
 }
 /*----------- FORM ---------------*/
+
 
 form fieldset {
     margin: 2rem 0;
