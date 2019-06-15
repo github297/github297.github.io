@@ -172,7 +172,7 @@ form label.top input, form label.top select {
 }
 form label.mid {
     display: block;
-    padding: 1rem 2rem;
+    padding: 1rem 1.3rem;
     color: #555;
 }
 form input.submitBtn {
@@ -190,7 +190,7 @@ form label.top input:required {
 }
 form label.top input:required:valid {
     
-    border-top-left-radius: salmon 4px;
+    border-left: salmon 4px;
      
 }
 /*----------- FOOTER --------------*/
