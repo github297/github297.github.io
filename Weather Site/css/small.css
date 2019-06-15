@@ -138,13 +138,13 @@ main h1 {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 2.5px solid #5c358f;
     border-radius: 10px;
-    padding: .5rem 2%;
+    padding: 1rem 2%;
     
 }
 form legend {
-    color: #445ba9;
+    color: #555;
     margin: 0 1rem;
     padding: 0 .5rem;
     
@@ -152,20 +152,20 @@ form legend {
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
+    color: #13389c;
+    font-size: 1.3rem;
 }
 form label.top input, form label.top select {
     -webkit-appearance: none;
     display: block;
-    font-size: 1rem;
-    border: solid 1px #999;
+    font-size: 1.3rem;
+    border: solid 1px rgb(159, 205, 216);
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: rgb(253, 251, 101);
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0.1, 0);
     
 }
 
@@ -176,7 +176,7 @@ form label.sbs {
 }
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #5c358f;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -185,11 +185,11 @@ form input.submitBtn {
     max-width: 20rem;
 }
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: red solid 4px;
 }
 form label.top input:required:valid {
     
-    border-left: red solid 6px;
+    border-left: red solid 4px;
      
 }
 /*----------- FOOTER --------------*/
