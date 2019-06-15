@@ -5,3 +5,4 @@ var d = new Date();
 var date = dayNames[d.getDate()] + "," + " " + d.getDate() + " " + monthNames[d.getMonth()] + " " + d.getFullYear();
 
 document.getElementById("output").innerHTML = date;
+
