@@ -1,16 +1,16 @@
 /* || general styles */
 
 html {
-    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    font-family: arial, sans-serif;
   }
   
   body {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
   }
   
   h1, h2 {
-    font-family: 'Faster One', cursive;
+    font-family: 'Sans Serif';
   }
   
   /* header styles */
