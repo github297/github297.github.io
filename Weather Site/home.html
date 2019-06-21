@@ -105,15 +105,61 @@
 <div class="row"> 
 
 <section>
-    <figure class="myphoto">
-        <picture>
-            <source srcset="images/Apollo_10_earthrisecopy.jpg" media="(min-width: 560px)">
-            <img src="images/Apollo_10_earthrise-small.jpg" alt ="Apollo 10 Earthrise">
-        </picture>
-    </figure>
-    <h2>This Day in History</h2>
-        <p>On this day in 1969, Apollo 10 launched towards the moon to complete the first ever manned mission to orbit the moon. Apollo 10 was a practice run for NASA and the upcoming historic Apollo 11 mission that would launch two months later. Astronauts Thomas Stafford, John Young, and Eugene Cernan flew 250,000 miles in space to reach the moon. Once there, Stafford and Cernan piloted the lunar module to an orbit 8.5 miles above the surface of the moon. John Young was left to pilot the command module and was the first person to orbit the moon solo. For this particular mission, the lunar module was named "Snoopy" and the command module was named "Charlie Brown."</p>
-    <a href="https://en.wikipedia.org/wiki/Apollo_10">Apollo 10 Wikipedia Article</a>
+    <script>
+        var header = document.querySelector('header');
+        var section = document.querySelector('section');
+//           var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+            var request = new XMLHttpRequest();
+            request.open('GET', requestURL);
+            request.responseType = 'json';
+            request.send();
+    request.onload = function() {
+      var weatherSite = request.response;
+      populateHeader(weatherSite);
+      showHeroes(weatherSite);
+    }
+    function populateHeader(jsonObj) {
+      var myH1 = document.createElement('h1');
+      myH1.textContent = jsonObj['squadName'];
+      header.appendChild(myH1);
+    
+      var myPara = document.createElement('p');
+      myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
+      header.appendChild(myPara);
+    }
+    function showHeroes(jsonObj) {
+      var heroes = jsonObj['members'];
+          
+      for (var i = 0; i < heroes.length; i++) {
+        var myArticle = document.createElement('article');
+        var myH2 = document.createElement('h2');
+        var myPara1 = document.createElement('p');
+        var myPara2 = document.createElement('p');
+        var myPara3 = document.createElement('p');
+        var myList = document.createElement('ul');
+    
+        myH2.textContent = heroes[i].name;
+        myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
+        myPara2.textContent = 'Age: ' + heroes[i].age;
+        myPara3.textContent = 'Superpowers:';
+            
+        var superPowers = heroes[i].powers;
+        for (var j = 0; j < superPowers.length; j++) {
+          var listItem = document.createElement('li');
+          listItem.textContent = superPowers[j];
+          myList.appendChild(listItem);
+        }
+    
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myPara1);
+        myArticle.appendChild(myPara2);
+        myArticle.appendChild(myPara3);
+        myArticle.appendChild(myList);
+    
+        section.appendChild(myArticle);
+      }
+    }
+        </script>
 </section>
 
 <section>
