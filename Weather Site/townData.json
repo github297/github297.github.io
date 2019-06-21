@@ -1,0 +1,26 @@
+{
+    "towns" : [
+   { 
+    "name": "Preston",
+    "motto": "Home of Napoleon Dynamite.",
+    "yearFounded": 1866,
+    "currentPopulation": 5204,
+    "averageRainfall": 16.65
+   ]
+  },
+  {
+    "name": "Soda Springs",
+    "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
+    "yearFounded": 1858,
+    "currentPopulation": 2985,
+    "averageRainfall": 15.75,
+    ]
+  },
+  {
+    "name": "Fish Haven",
+    "motto": "This is Fish Heaven.",
+    "yearFounded": 1864,
+    "currentPopulation": 501,
+    "averageRainfall": 14.20
+    ]
+  }
