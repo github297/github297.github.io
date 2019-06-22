@@ -49,51 +49,24 @@
 
 <div class="row"> 
 
+<section>		
+    <article class="towns">
+        <section>
+            <div id="spring">Replace me with JavaScript</div><img src="images/springfield.jpg" alt="springfield">
+        </section>
 <section>
-    <script>
-        var header = document.querySelector('header');
-        var section = document.querySelector('section');
-            var requestURL = 'https://github.com/github297/github297.github.io/blob/master/Weather%20Site/weatherSite.json';
-            var request = new XMLHttpRequest();
-            request.open('GET', requestURL);
-            request.responseType = 'json';
-            request.send();
-    request.onload = function() {
-      var weatherSite = request.response;
-      populateHeader(weatherSite);
-      showHeroes(weatherSite);
-    }
-      var myPara = document.createElement('p');
-      myPara.textContent = 'Welcome to Weatherhome.org';
-      header.appendChild(myPara);
-    
-    function showTowns(jsonObj) {
-      var towns = jsonObj["towns"];
-        myH2.textContent = towns[i].name;
-        myPara1.textContent = 'Name: ' + towns[i].name;
-        myPara2.textContent = 'Motto: ' + towns[i].motto;
-        myPara3.textContent = 'Year Founded:' + towns[i].yearFounded;
-        myPara4.textContent = 'Current Population:' + towns[i].currentPopulation;;
-        myPara5.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
-    }       
-    
-    
-        myArticle.appendChild(myH2);
-        myArticle.appendChild(myPara1);
-        myArticle.appendChild(myPara2);
-        myArticle.appendChild(myPara3);
-        myArticle.appendChild(myPara4);
-        myArticle.appendChild(myPara5);
-        section.appendChild(myArticle);
-    
-    
-        </script>
-        <div class="towns">
-                <figure><img class="norm" src="images/atmosphere-background.jpg" alt="Blue Sky Clouds"><figcaption>Blue Sky Clouds</figcaption></figure>
-                <figure><img class="norm" src="images/atmosphere-backdrop.jpg" alt="White Clouds"><figcaption>White Clouds</figcaption></figure>
-                <figure><img class="norm" src="images/clouds-form-color.jpg" alt="Blue Sky"><figcaption>Blue SKy</figcaption></figure>
-        </div>
-            </section>
+    <div id="soda">Replace me with JavaScript</div><img src="images/soda_springs.jpg" alt="springfield">
+</section>
+    <section>
+        <div id="place">Replace me with JavaScript</div><img src="images/placerton.jpg" alt="springfield">
+    </section>
+</article>
+    <div class="towns">
+        <figure><img src="images/atmosphere-background.jpg" alt="Blue Sky Clouds"><figcaption>Blue Sky Clouds</figcaption></figure>
+        <figure><img src="images/atmosphere-backdrop.jpg" alt="White Clouds"><figcaption>White Clouds</figcaption></figure>
+        <figure><img src="images/clouds-form-color.jpg" alt="Blue Sky"><figcaption>Blue SKy</figcaption></figure>
+    </div>
+</section>
 
             
 <section>
@@ -118,13 +91,8 @@
     
 </footer>
 
-<script src="scripts/hamburger.js">
-
-let date = getDate + getDay + getMonth + getFullYear;
-
-document.getElementById("output").innerHTML = date;
-
-</script>
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/towns.js"></script>
 
 </body>
 </html>
