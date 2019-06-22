@@ -105,6 +105,10 @@
 <div class="row"> 
 
 <section>
+
+
+
+
     <script>
         var header = document.querySelector('header');
         var section = document.querySelector('section');
@@ -118,49 +122,37 @@
       populateHeader(weatherSite);
       showHeroes(weatherSite);
     }
-    function populateHeader(jsonObj) {
-      var myH1 = document.createElement('h1');
-      myH1.textContent = jsonObj['squadName'];
-      header.appendChild(myH1);
-    
       var myPara = document.createElement('p');
-      myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
+      myPara.textContent = 'Welcome to Weatherhome.org';
       header.appendChild(myPara);
-    }
-    function showHeroes(jsonObj) {
-      var heroes = jsonObj['members'];
-          
-      for (var i = 0; i < heroes.length; i++) {
-        var myArticle = document.createElement('article');
-        var myH2 = document.createElement('h2');
-        var myPara1 = document.createElement('p');
-        var myPara2 = document.createElement('p');
-        var myPara3 = document.createElement('p');
-        var myList = document.createElement('ul');
     
-        myH2.textContent = heroes[i].name;
-        myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
-        myPara2.textContent = 'Age: ' + heroes[i].age;
-        myPara3.textContent = 'Superpowers:';
-            
-        var superPowers = heroes[i].powers;
-        for (var j = 0; j < superPowers.length; j++) {
-          var listItem = document.createElement('li');
-          listItem.textContent = superPowers[j];
-          myList.appendChild(listItem);
-        }
+    function showTowns(jsonObj) {
+      var towns = jsonObj["towns"];
+        myH2.textContent = towns[i].name;
+        myPara1.textContent = 'Name: ' + towns[i].name;
+        myPara2.textContent = 'Motto: ' + towns[i].motto;
+        myPara3.textContent = 'Year Founded:' + towns[i].yearFounded;
+        myPara4.textContent = 'Current Population:' + towns[i].currentPopulation;;
+        myPara5.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
+    }       
+    
     
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
-        myArticle.appendChild(myList);
-    
+        myArticle.appendChild(myPara4);
+        myArticle.appendChild(myPara5);
         section.appendChild(myArticle);
-      }
-    }
+    
+    
         </script>
-</section>
+        <div class="towns">
+                <figure><img class="norm" src="images/atmosphere-background.jpg" alt="Blue Sky"><figcaption>Bright Clouds</figcaption></figure>
+                <figure><img class="norm" src="images/atmosphere-backdrop.jpg" alt="Dawn Clouds"><figcaption>Dawn Clouds</figcaption></figure>
+                <figure><img class="norm" src="images/clouds-form-color.jpg" alt="Clouds"><figcaption>Blue Clouds</figcaption></figure>
+        </div>>
+            </section>
 
 <section>
     <h3>Address:</h3>
