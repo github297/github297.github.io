@@ -73,9 +73,8 @@ div.row section:nth-child(3) {
 form label.sbs {
     padding: .4rem 0;
 }
-div.towns figure {
+div.towns {
     flex-basis: 29%;
-  
 }
 /*----------- FOOTER --------------*/
 footer {
