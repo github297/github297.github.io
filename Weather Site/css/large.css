@@ -73,10 +73,9 @@ div.row section:nth-child(3) {
 form label.sbs {
     padding: .4rem 0;
 }
-
 div.towns figure {
     flex-basis: 29%;
-    margin: 1rem 2%;
+  
 }
 /*----------- FOOTER --------------*/
 footer {
