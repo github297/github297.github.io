@@ -74,6 +74,10 @@ form label.sbs {
     padding: .4rem 0;
 }
 
+div.towns figure {
+    flex-basis: 29%;
+    margin: 1rem 2%;
+}
 /*----------- FOOTER --------------*/
 footer {
     clear: both;

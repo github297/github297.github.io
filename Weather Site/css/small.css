@@ -135,6 +135,17 @@ div.row section:nth-child(3) {
 main h1 {
     padding: 0;
 }
+div.towns {
+    display: flex; 
+    flex-wrap: wrap;
+}
+div.towns figure {
+    flex-basis: 96%;
+    margin: 1rem 2%;
+}
+div.towns figure img {
+    width: 100%;  
+}
 /*----------- FORM ---------------*/
 
 
