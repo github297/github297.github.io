@@ -13,9 +13,9 @@ myRequestObject.onload = function() {
     console.log(myWeatherInfo);
 	
 	//make a call to the function below for each town and send the array number of the needed town. Ppon returning insert it as html inside the id for each city
-	document.getElementById("spring").innerHTML = assembleData(6);
+	document.getElementById("fish").innerHTML = assembleData(1);
 	document.getElementById("soda").innerHTML = assembleData(5);
-	document.getElementById("place").innerHTML = assembleData(3);
+	document.getElementById("preston").innerHTML = assembleData(4);
 }
 
 function assembleData(x) {
@@ -33,5 +33,5 @@ function assembleData(x) {
 	return townInfo;
 }
 
-//let townNames = jsonObj["towns"][1],["towns"][4],["towns"][5];
-//console.log(townNames);
+let townNames = jsonObj["towns"][1],["towns"][4],["towns"][5];
+console.log(townNames);
