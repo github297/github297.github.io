@@ -50,7 +50,7 @@
 <div class="row"> 
 
 <section>
-    <h1>Weather Alert Form</h1>
+    <h3>Weather Alert Form</h3>
     <form method="get" action="thanks.html">
         <fieldset>
             <legend>Customer Information</legend>
@@ -64,11 +64,11 @@
         <legend>Severe Weather Notification System</legend>
         <div>
         <label class="mid">Storm Date: <input type="date" name="date"></label>
-            <label class="mid">
-                <h1>Please select all that apply</h1>
+            <label class="mid">Storm Date</label>
+                <p>Please select all that apply</p>
             
-                <input type="checkbox" id="Flash Flood" name="Flash Flood" value="Flash Flood">
-                <label for="Flash Flood">Flash Flood</label>
+                <input type="checkbox" id="FlashFlood" name="FlashFlood" value="FlashFlood">
+                <label for="FlashFlood">Flash Flood</label>
            
                 <input type="checkbox" id="Hail" name="Hail" value="Hail">
                 <label for="Hail">Hail</label>
@@ -85,18 +85,16 @@
 
 <label class="mid">Storm Severity</label>
  <label for="rating">Rating (1 to 10):</label>
- <input type="range" id="rating" value="" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+ <input type="range" id="rating" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
     <span id="ratingvalue"></span>
-        <label class="mid"Course Subject>
+        <label class="mid">Course Subject</label> 
             <select name="subject">
-            <option value="">Select Region...&#9662;<option>
+            <option value="selectregion">Select Region...&#9662;</option>
             <option value="Preston">Preston</option>
             <option value="Sugar City">Sugar City</option>
             <option value="Fish Haven">Fish Haven</option>
            </select>
-        </label>
-</div>
-
+        </div>
 <div>Are you currently in danger from the storm?</div>
     <label class="mid"><input type="radio" name="UserInDanger" value="Yes">Yes</label>
     <label class="mid"><input type="radio" name="UserInDanger" value="No">No</label>
@@ -105,7 +103,7 @@
     
 <fieldset>
     <div>Additional Information - Please add comments below</div>    
-        <label class="mid"><input type="textarea" name="comments"></label>
+        <label class="mid"><input type="text" name="comments"></label>
 </fieldset>
 
 <input type="submit" value = "Send Information" class="submitBtn"> 
