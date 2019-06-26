@@ -62,10 +62,11 @@
         
     <fieldset>
         <legend>Severe Weather Notification System</legend>
-        <label class="mid">Storm Date: <input type="date" name="date" placeholder="Enter Date Here"></label>
-            <label class="mid"Storm Type>
-                <div>Please select all that apply</div>
-            <div>
+        <div>
+        <label class="mid">Storm Date: <input type="date" name="date"></label>
+            <label class="mid" Storm Type>
+                <h1>Please select all that apply</h1>
+            
                 <input type="checkbox" id="Flash Flood" name="Flash Flood" value="Flash Flood">
                 <label for="Flash Flood">Flash Flood</label>
            
@@ -80,8 +81,8 @@
 
                 <input type="checkbox" id="Tornado" name="Tornado" value="Tornado">
                 <label for="Tornado">Tornado</label>
-            </div>
-<div>
+            
+
 <label class="mid">Storm Severity</label>
  <label for="rating">Rating (1 to 10):</label>
  <input type="range" id="rating" value="" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
