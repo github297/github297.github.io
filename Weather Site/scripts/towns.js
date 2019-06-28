@@ -4,7 +4,7 @@
 const myRequestObject = new XMLHttpRequest();
 
 //enter the path to the local json file
-const myRequestURL = "towndata.json";
+const myRequestURL = "townData.json";
 
 //Now we will create a global container called myWeatherInfo which can be used anywhere in the script.
 let myWeatherInfo;
@@ -35,13 +35,13 @@ function assembleData(x) {
 	return townInfo;
 }
 
-//let townNames = jsonObj["towns"][1],["towns"][4],["towns"][5];
-//console.log(townNames);
+let townNames = jsonObj["towns"][1],["towns"][4],["towns"][5];
+console.log(townNames);
 
 // help from Justin Schone
-var towndata = townRequest.response;
-document.getElementById("Pname").innerHTML=towndata.towns[2].name;
-document.getElementById("Pmotto").innerHTML=towndata.towns[2].motto;
-document.getElementById("Pyear").innerHTML=towndata.towns[2].yearFounded;
-document.getElementById("Ppop").innerHTML=towndata.towns[2].currentPopulation;
-document.getElementById("Prain").innerHTML=towndata.towns[2].averageRainfall;
+//var towndata = townRequest.response;
+//document.getElementById("Pname").innerHTML=towndata.towns[2].name;
+//document.getElementById("Pmotto").innerHTML=towndata.towns[2].motto;
+//document.getElementById("Pyear").innerHTML=towndata.towns[2].yearFounded;
+//document.getElementById("Ppop").innerHTML=towndata.towns[2].currentPopulation;
+//document.getElementById("Prain").innerHTML=towndata.towns[2].averageRainfall;
