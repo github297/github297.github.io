@@ -34,7 +34,7 @@ function assembleData(x) {
 	//return the variable that now has all the town information
 	return townInfo;
 }
-\
+
 let townNames = jsonObj["towns"][1],["towns"][4],["towns"][5];
 console.log(townNames);
 
