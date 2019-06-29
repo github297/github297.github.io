@@ -6,7 +6,7 @@ newweatherObject.onload = function() {
     let newweatherInfo = JSON.parse(newweatherObject.responseText)
     console.log(newweatherInfo);
 
-//declare variables for the days of the week
+//declare variables for the days of the week. I'm still working on figuring out this part out.
     var day = getDay();
     var tomorrow;
     tomorrow += day;
