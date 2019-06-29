@@ -4,6 +4,7 @@ weatherObject.send();
 weatherObject.onload = function() {
     let weatherInfo = JSON.parse(weatherObject.responseText)
     console.log(weatherInfo);
+
 document.getElementById('description').innerHTML = weatherInfo.weather[0].description
 document.getElementById('place').innerHTML = weatherInfo.name;
 document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp;
