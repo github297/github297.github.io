@@ -82,7 +82,7 @@ div.row section:nth-child(3) {
 }
 .weathersummary {
     text-align: center;
-
+    font-size: 2rem;
 }
 /*----------- FOOTER --------------*/
 
