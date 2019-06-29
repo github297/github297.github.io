@@ -83,7 +83,8 @@ div.row section:nth-child(3) {
 .weathersummary {
     text-align: center;
     font-size: 1.3rem;
-    color: white; 
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 /*----------- FOOTER --------------*/
 

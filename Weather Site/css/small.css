@@ -148,6 +148,8 @@ main h1 {
 }
 .weathersummary {
     text-align: center;
+    font-size: 1.3rem;
+    color: white;
     font-family: 'Roboto', sans-serif;
 }
 /*----------- FORM ---------------*/
