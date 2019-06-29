@@ -10,7 +10,6 @@ weatherObject.onload = function() {
     var day = getDay();
     var tomorrow;
     tomorrow += day;
-}
 
 document.getElementById('day').innerHTML = weatherInfo.weather[0].description
 document.getElementById('desc').innerHTML = weatherInfo.weather[0].description
