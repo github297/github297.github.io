@@ -7,18 +7,15 @@ weatherObject.onload = function() {
     console.log(weatherInfo);
 
 //declare variables for the days of the week
-var today = getDay();
-var tomorrow;
-
-//loop through the days of the week
-for (i = 0; i < 4, i++;)
-     tomorrow += today;
+    var day = getDay();
+    var tomorrow;
+    tomorrow += day;
 }
 
+document.getElementById('day').innerHTML = weatherInfo.weather[0].description
 document.getElementById('desc').innerHTML = weatherInfo.weather[0].description
-document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp;
-document.getElementById('windSpeed').innerHTML = weatherInfo.wind.speed;
-document.getElementById('humidity').innerHTML = weatherInfo.main.humidity;
+document.getElementById('highlow').innerHTML = weatherInfo.main.temp;
+document.getElementById('wind').innerHTML = weatherInfo.wind.speed;
 
 //sets the icon code
 const iconcode = weatherInfo.weather[0].icon;

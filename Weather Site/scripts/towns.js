@@ -13,13 +13,13 @@ requestObject.send();
 requestObject.onload = function() {
     weatherInfo = JSON.parse(requestObject.responseText);
     console.log(weatherInfo);
-	
+
 	//make a call to the function below for each town and send the array number of the needed town. Ppon returning insert it as html inside the id for each city
 	document.getElementById("fish").innerHTML = assembleData(1);
 	document.getElementById("soda").innerHTML = assembleData(4);
 	document.getElementById("preston").innerHTML = assembleData(5);
 }
-
+//This is the section I am stuck on. Should I replace x with id's or 1, 4, or 5?
 function assembleData(x) {
 	//make sure the town data is being loaded for the variale x
 	console.log(myWeatherInfo.towns[x]);
@@ -37,11 +37,3 @@ function assembleData(x) {
 
 let townNames = jsonObj["towns"][1],["towns"][4],["towns"][5];
 console.log(townNames);
-
-// help from Justin Schone
-//var towndata = townRequest.response;
-//document.getElementById("Pname").innerHTML=towndata.towns[2].name;
-//document.getElementById("Pmotto").innerHTML=towndata.towns[2].motto;
-//document.getElementById("Pyear").innerHTML=towndata.towns[2].yearFounded;
-//document.getElementById("Ppop").innerHTML=towndata.towns[2].currentPopulation;
-//document.getElementById("Prain").innerHTML=towndata.towns[2].averageRainfall;
