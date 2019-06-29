@@ -11,7 +11,7 @@ var today = getDay();
 var tomorrow;
 
 //loop through the days of the week
-for (i = 0; i < 4, i ++) {
+for (i = 0; i < 4, i++;)
      tomorrow += today;
 }
 
