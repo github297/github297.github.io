@@ -35,8 +35,8 @@ function assembleData(x) {
 	return townInfo;
 }
 
-l//et townNames = jsonObj["towns"][1],["towns"][4],["towns"][5];
-//console.log(townNames);
+let townNames = jsonObj["towns"][1],["towns"][4],["towns"][5];
+console.log(townNames);
 
 // help from Justin Schone
 //var towndata = townRequest.response;
