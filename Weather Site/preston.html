@@ -9,7 +9,6 @@
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
 <!-- STYLE SHEETS -->
 <link href="css/normalize.css" rel="stylesheet">
 <!-- phone-default -->
@@ -22,6 +21,7 @@
 </head>
 
 <body>
+
 <!-- HEADER HERE -->
 <header class="clearfix">
     <img src="images/jfweathersitelogo.png" alt="weather site logo">
@@ -44,7 +44,6 @@
     </ul>
 </nav>
 
-    
 <!-- CONTENT HERE -->
 <main>
     <h1>Preston</h1>
@@ -52,11 +51,11 @@
     <figure class="herodiv">
     <picture>
         <source srcset="images/blue-sky-bright-clouds-large.jpg" media="(min-width: 560px)">
-    <img src="images/blue-sky-bright-clouds-small.jpg" alt ="Green grass and blue sky">
-        </picture>
+        <img src="images/blue-sky-bright-clouds-small.jpg" alt ="Green grass and blue sky">
+    </picture>
 </figure>
 <section class="weathersummary">
-        <h3>Weather Conditions for <span id="place">city</span></h3>
+    <h3>Weather Conditions for <span id="place">city</span></h3>
         <img id="weather_icon" src="images/placeholder.png" alt="current weather">
             <p>Current weather: <span id="description"></span></p></p>
             <p>Current Temperature: <span id="currentTemp">00</span>&deg;</p>
@@ -135,20 +134,16 @@
 
 </div>
 </main>     
+
 <!-- FOOTER HERE -->   
-
-
 <script src="scripts/hamburger.js"></script>
-<!--<script src="scripts/weatherInfo.js"></script>-->
+<script src="scripts/weatherInfo.js"></script>
 <script src="scripts/5dayweatherInfo.js"></script>
-<!--<script src="scripts/currentdate.js"></script>
-<script src="scripts/windchill.js"></script>-->
-
-
+<script src="scripts/currentdate.js"></script>
+<script src="scripts/windchill.js"></script>
 
 <footer>
-    <p id="output">&copy; &bull; Justin Faust</p>
-    
+    <p><span id="output"></span>&copy; &bull; Justin Faust</p>
 </footer>
 </body>
 </html>
