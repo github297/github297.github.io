@@ -61,7 +61,7 @@ main figure.myphoto img{
 }
 .table {
     display: block;
-    background-color: #777;
+    background-color: #8b8be1;
     border: 1px solid black;
     border-collapse: collapse;
     border-spacing: 10px;
