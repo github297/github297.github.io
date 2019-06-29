@@ -80,6 +80,10 @@ div.row section:nth-child(3) {
 .towns section {
     flex-basis: 46%;
 }
+.weathersummary {
+    text-align: center;
+
+}
 /*----------- FOOTER --------------*/
 
 footer {

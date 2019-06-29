@@ -76,6 +76,10 @@ form label.sbs {
 .towns section {
     flex-basis: 29%;
 }
+.weathersummary {
+    text-align: center;
+
+}
 /*----------- FOOTER --------------*/
 footer {
     clear: both;

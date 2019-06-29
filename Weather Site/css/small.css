@@ -146,6 +146,10 @@ main h1 {
 .towns section img {
     width: 100%;  
 }
+.weathersummary {
+    text-align: center;
+
+}
 /*----------- FORM ---------------*/
 
 
