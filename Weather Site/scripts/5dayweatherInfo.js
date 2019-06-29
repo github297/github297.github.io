@@ -1,10 +1,10 @@
 //new http request for data
-const weatherObject = new XMLHttpRequest();
-weatherObject.open("GET","https://api.openweathermap.org/data/2.5/forecast?zip=83263,us&appid=0e2291c05d0d27dffb42a2effa870708&units=imperial", true )
-weatherObject.send();
-weatherObject.onload = function() {
-    let weatherInfo = JSON.parse(weatherObject.responseText)
-    console.log(weatherInfo);
+const newweatherObject = new XMLHttpRequest();
+newweatherObject.open("GET","https://api.openweathermap.org/data/2.5/forecast?zip=83263,us&appid=0e2291c05d0d27dffb42a2effa870708&units=imperial", true )
+newweatherObject.send();
+newweatherObject.onload = function() {
+    let newweatherInfo = JSON.parse(newweatherObject.responseText)
+    console.log(newweatherInfo);
 
 //declare variables for the days of the week
     var day = getDay();
