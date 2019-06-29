@@ -6,8 +6,11 @@ weatherObject.onload = function() {
     console.log(weatherInfo);
 
 document.getElementById('place').innerHTML = weatherInfo.name;
+document.getElementById('currentConditions').innerHTML = weatherInfo.weather[""0""].main;
 document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp;
 document.getElementById('windSpeed').innerHTML = weatherInfo.wind.speed;
+document.getElementById('humidity').innerHTML = weatherInfo.main.humidity;
+
 
 const iconcode = weatherInfo.weather[0].icon;
 console.log(iconcode);
