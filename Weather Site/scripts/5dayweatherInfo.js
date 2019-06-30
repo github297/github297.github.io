@@ -50,4 +50,5 @@ console.log(icon_path);
 
 //displays the weather icon
 document.getElementById('weather_icon').src = icon_path;
+
 }
