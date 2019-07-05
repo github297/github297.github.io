@@ -59,6 +59,9 @@ div.table {
     padding: 5px;
     text-align: center;
 }
+#forecast {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
 .norm:hover {box-shadow: 0 0 50px #333;} 
 
 div.gallery figure {
