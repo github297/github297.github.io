@@ -50,18 +50,16 @@ main figure.myphoto {
 main figure.myphoto img{
     width: 100%;
 }
-div.table {
+#forecast {
     display: block;
     background-color: #8b8be1;
-    border: 1px solid black;
+    border: 1px solid #4f6ee8;
     border-collapse: collapse;
     border-spacing: 10px;
     padding: 5px;
     text-align: center;
 }
-#forecast {
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 .norm:hover {box-shadow: 0 0 50px #333;} 
 
 div.gallery figure {
