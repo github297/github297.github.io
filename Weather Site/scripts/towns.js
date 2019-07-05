@@ -1,4 +1,4 @@
-//EXAMPLE BY BROTHER CHENEY
+
 
 //create an object
 const requestObject = new XMLHttpRequest();
@@ -19,8 +19,7 @@ requestObject.onload = function() {
 	document.getElementById("soda").innerHTML = assembleData(4);
 	document.getElementById("preston").innerHTML = assembleData(5);
 }
-//This is the section I am stuck on. Should I replace x with 1, 4, or 5?
-//Do I repeat this section for each town with it's corresponding number instead of x?
+
 function assembleData(x) {
 	//make sure the town data is being loaded for the variale x
 	console.log(myWeatherInfo.towns[x]);
