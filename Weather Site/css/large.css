@@ -50,7 +50,7 @@ main figure.myphoto {
 main figure.myphoto img{
     width: 100%;
 }
-.table {
+div.table {
     display: block;
     background-color: #8b8be1;
     border: 1px solid black;
