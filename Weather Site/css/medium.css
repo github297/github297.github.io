@@ -80,6 +80,19 @@ div.row {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+table {
+    display: none;
+    background-color: #8b8be1;
+    }
+    table th {
+        text-align: center;
+        border: 1px solid black;
+        color: #e8e8e8;
+    }
+    table td {
+        border: 1px solid black;
+        padding: 2px 4px;
+    }
 /*----------- FOOTER --------------*/
 
 footer {
