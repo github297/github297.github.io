@@ -129,6 +129,7 @@ table th {
     color: #e8e8e8;
 }
 table td {
+    text-align: center;
     border: 1px solid black;
     padding: 2px 4px;
 }
