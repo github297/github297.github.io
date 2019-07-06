@@ -19,11 +19,9 @@ var day = new Date();
     weekday[6] = "Saturday";
 
 var n = weekday[day.getDay()];
-document.getElementById("output").innerHTML = n;
-
 }
 
-document.getElementById('output').innerHTML = n;
+document.getElementById('day').innerHTML = n;
 document.getElementById('desc1').innerHTML = newweatherInfo.list[6].weather[0].description
 document.getElementById('high1').innerHTML = newweatherInfo.list[6].main.temp_max;
 document.getElementById('low1').innerHTML = newweatherInfo.list[6].main.temp_min;
@@ -47,7 +45,7 @@ document.getElementById('high4').innerHTML = newweatherInfo.list[30].main.temp_m
 document.getElementById('low4').innerHTML = newweatherInfo.list[30].main.temp_min;
 document.getElementById('wind4').innerHTML = newweatherInfo.list[30].wind.speed;
 
-document.getElementById('day5').innerHTML = n;
+document.getElementById('day5').innerHTML = tomorrow;
 document.getElementById('desc5').innerHTML = newweatherInfo.list[38].weather[0].description
 document.getElementById('high5').innerHTML = newweatherInfo.list[38].main.temp_max;
 document.getElementById('low5').innerHTML = newweatherInfo.list[38].main.temp_min;
