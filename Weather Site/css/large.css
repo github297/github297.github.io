@@ -77,7 +77,7 @@ form label.sbs {
 .towns section {
     flex-basis: 22%;
     flex-direction: row;
-    padding: 1rem .5rem
+    padding: 1rem .5rem;
     border: 1px #8b8be1;
     margin: 2%;
 }
