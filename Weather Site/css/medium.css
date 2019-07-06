@@ -36,7 +36,9 @@ main {
 }
 .norm:hover {box-shadow: 0 0 50px #333;} 
 
-
+.hide {
+    display: block;
+}
 .herodiv {
     margin: 10px auto;
     position: relative;
