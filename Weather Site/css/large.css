@@ -74,6 +74,10 @@ div.row section:nth-child(3) {
 form label.sbs {
     padding: .4rem 0;
 }
+.towns {
+        flex-basis: 29%;
+        border: 2px #4f6ee8;
+}
 .towns section {
     flex-basis: 29%;
     border: 2px #4f6ee8;
