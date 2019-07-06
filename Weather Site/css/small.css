@@ -146,7 +146,7 @@ main h1 {
     display: flex; 
     flex-wrap: wrap;
     text-align: center;
-    background-color: #e8e8e8;
+    background-color: white;
     clear: both;
 }
 .towns section {
