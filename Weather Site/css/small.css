@@ -150,7 +150,7 @@ main h1 {
     display: flex; 
     flex-wrap: wrap;
     text-align: center;
-    background-color: solid white;
+    background-color:white;
     clear: both;
     border: 2px #4f6ee8;
 }
