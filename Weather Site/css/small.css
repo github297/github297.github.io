@@ -148,6 +148,7 @@ main h1 {
     text-align: center;
     background-color: solid white;
     clear: both;
+    border: 2px #4f6ee8;
 }
 .towns section {
     flex-basis: 96%;
