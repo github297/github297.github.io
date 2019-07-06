@@ -128,13 +128,13 @@ table {
 }
 table th {
     text-align: center;
-    border: 1px solid black;
+    border: 1px white;
     color: #e8e8e8;
     padding: 2px 4px;
 }
 table td {
     text-align: center;
-    border: 1px solid black;
+    border: 1px white;
     padding: 2px 4px;
 }
 div.row section:nth-child(2) {
