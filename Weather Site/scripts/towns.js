@@ -20,7 +20,7 @@ requestObject.onload = function() {
 
 function assembleData(x) {
 
-	console.log(myWeatherInfo.towns[x]);
+	console.log(WeatherInfo.towns[x]);
 	
 	let townInfo = "<h3>"+weatherInfo.towns[x].name+"</h3>";
 	townInfo += "<i>"+weatherInfo.towns[x].motto+"</i>";
