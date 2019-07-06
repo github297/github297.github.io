@@ -57,10 +57,11 @@
 <section class="weathersummary">
     <h3>Weather Summary</h3>
         <img id="weather_icon" src="images/placeholder.png" alt="current weather">
-            <p>Current weather: <span id="description"></span></p></p>
+            <p>Current weather: <span id="description"></span></p>
             <p>Current Temperature: <span id="currentTemp">00</span>&deg;</p>
-            <p>Wind Speed: <span id="windSpeed"></span>mph</p></p>
+            <p>Wind Speed: <span id="windSpeed"></span>mph</p>
             <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind Chill: <span id="wchill"></span>&deg;</p>
 </section>
 </div>
 <div class="hide">
@@ -145,9 +146,11 @@
 <script src="scripts/hamburger.js"></script>
 <script src="scripts/weatherInfo.js"></script>
 <script src="scripts/5dayweatherInfo.js"></script>
+<script src="scripts/currentdate.js"></script>
+<script src="scripts/windchill.js"></script>
 
 <footer>
-    <p>&copy; &bull; Justin Faust</p>
+    <p><span id="output"></span>&copy; &bull; Justin Faust</p>
 </footer>
 </body>
 </html>
