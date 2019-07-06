@@ -9,7 +9,6 @@ newweatherObject.onload = function() {
 //declare variables for the days of the week.
     var day = new Date();
     var today = day.getDay();
-    6 = "Saturday";
     var tomorrow =+ today;
 
 document.getElementById('day1').innerHTML = tomorrow;
