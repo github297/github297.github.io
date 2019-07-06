@@ -3,7 +3,7 @@ function adjustRating(rating) {
 }
 const requestObject = new XMLHttpRequest();
 
-const requestURL = "https://github.com/github297/github297.github.io/blob/master/Weather%20Site/townData.json";
+const requestURL = "https://www.github.com/github297/github297.github.io/blob/master/Weather%20Site/townData.json";
 
 let weatherInfo;
 requestObject.open("GET", requestURL);
