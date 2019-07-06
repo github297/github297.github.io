@@ -146,14 +146,13 @@ main h1 {
     display: flex; 
     flex-wrap: wrap;
     text-align: center;
-    background-color: #8b8be1;
+    background-color: #e8e8e8;
     clear: both;
 }
 .towns section {
     flex-basis: 96%;
     border: 1px #4f6ee8;
-    margin: 1rem 2%;
-    background-color: white;
+    background-color: #e8e8e8;
     clear: both;
 }
 .towns section img {
