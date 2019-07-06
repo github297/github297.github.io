@@ -75,11 +75,7 @@ form label.sbs {
     padding: .4rem 0;
 }
 .towns section {
-    flex-basis: 22%;
-    flex-direction: row;
-    padding: 1rem .5rem;
-    border: 1px #8b8be1;
-    margin: 2%;
+    flex-basis: 29%;
 }
 .weathersummary {
     text-align: center;
