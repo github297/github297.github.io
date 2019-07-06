@@ -145,10 +145,17 @@ main h1 {
 .towns {
     display: flex; 
     flex-wrap: wrap;
+    text-align: center;
+    background-color: #8b8be1;
+    clear: both;
 }
 .towns section {
     flex-basis: 96%;
     margin: 1rem 2%;
+    border: 1px #4f6ee8;
+    margin: 1rem 2%;
+    background-color: white;
+    clear: both;
 }
 .towns section img {
     width: 100%;  
