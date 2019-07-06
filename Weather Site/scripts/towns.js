@@ -1,6 +1,3 @@
-function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
-}
 const requestObject = new XMLHttpRequest();
 
 const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
