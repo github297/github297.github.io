@@ -55,11 +55,59 @@
         </picture>
 </figure>
 <section class="weathersummary">
-    <h3>Current Conditions</h3>
-        <p>Partly Cloudy</p>
-        <p>Low: 36 degrees</p>
-        <p>High: 87 degrees</p>
+    <h3>Weather Conditions for <span id="place">city</span></h3>
+        <img id="weather_icon" src="images/placeholder.png" alt="current weather">
+            <p>Current weather: <span id="description"></span></p></p>
+            <p>Current Temperature: <span id="currentTemp">00</span>&deg;</p>
+            <p>Wind Speed: <span id="windSpeed"></span>mph</p></p>
+            <p>Humidity: <span id="humidity"></span>%</p>
 </section>
+</div>
+<div class="table">
+<table id="forecast">
+    <tr>
+        <th>Day</th>
+        <th>Description</th>
+        <th>High Temperature</th>
+        <th>Low Temperature</th>
+        <th>Wind Speed</th>
+    </tr>
+    <tr>
+        <td><span id="day1">day</span></td>
+        <td><span id="desc1">desc</span></td>
+        <td><span id="high1">high/low</span></td>
+        <td><span id="low1">low</span></td>
+        <td><span id="wind1">wind</span></td>
+    </tr>
+    <tr>
+        <td><span id="day2">day</span></td>
+        <td><span id="desc2">desc</span></td>
+        <td><span id="high2">high/low</span></td>
+        <td><span id="low2">low</span></td>
+        <td><span id="wind2">wind</span></td>
+    </tr>
+    <tr>
+        <td><span id="day3">day</span></td>
+        <td><span id="desc3">desc</span></td>
+        <td><span id="high3">high/low</span></td>
+        <td><span id="low3">low</span></td>
+        <td><span id="wind3">wind</span></td>
+    </tr>
+    <tr>
+        <td><span id="day4">day</span></td>
+        <td><span id="desc4">desc</span></td>
+        <td><span id="high4">high/low</span></td>
+        <td><span id="low4">low</span></td>
+        <td><span id="wind4">wind</span></td>
+    </tr>
+    <tr>
+        <td><span id="day5">day</span></td>
+        <td><span id="desc5">desc</span></td>
+        <td><span id="high5">high/low</span></td>
+        <td><span id="low5">low</span></td>
+        <td><span id="wind5">wind</span></td>
+    </tr>
+</table>
 </div>
 
 <div class="row"> 
@@ -92,13 +140,14 @@
 
 </div>
 </main>     
+
 <!-- FOOTER HERE -->   
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/weatherInfo.js"></script>
+<script src="scripts/5dayweatherInfo.js"></script>
+
 <footer>
     <p>&copy; &bull; Justin Faust</p>
-    
 </footer>
-
-<script src="scripts/hamburger.js"></script>
-
 </body>
 </html>
