@@ -96,7 +96,7 @@ div.gallery figure img {
     top: 15px;
     left: 15px;
     background: radial-gradient(#4f6ee8,#8b8be1);
-    border: 1px solid #000;
+    border: 1px white;
     padding: .5rem;
     box-shadow: 0 0 30px white;
 }
