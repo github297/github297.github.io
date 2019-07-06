@@ -86,7 +86,6 @@ div.gallery figure img {
     margin: 10px auto;
     position: relative;
     width: 100%;
-    float: center;
 }
 .herodiv figure.herodiv img{
     width: 100%;
@@ -171,8 +170,6 @@ main h1 {
     font-family: 'Roboto', sans-serif;
 }
 /*----------- FORM ---------------*/
-
-
 form fieldset {
     margin: 2rem 0;
     border: 2.5px solid #5c358f;
