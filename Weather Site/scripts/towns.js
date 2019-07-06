@@ -1,3 +1,6 @@
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
 const requestObject = new XMLHttpRequest();
 
 const requestURL = "https://github.com/github297/github297.github.io/blob/master/Weather%20Site/townData.json";
