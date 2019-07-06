@@ -41,7 +41,7 @@ document.getElementById('high5').innerHTML = newweatherInfo.list[38].main.temp_m
 document.getElementById('low5').innerHTML = newweatherInfo.list[38].main.temp_min;
 document.getElementById('wind5').innerHTML = newweatherInfo.list[38].wind.speed;
 //sets the icon code
-const iconcode = weatherInfo.weather[0].icon;
+const iconcode = newweatherInfo.weather[0].icon;
 console.log(iconcode);
 
 //sets the icon path
