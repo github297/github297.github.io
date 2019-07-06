@@ -76,6 +76,7 @@ form label.sbs {
 }
 .towns section {
     flex-basis: 29%;
+    border: 2px #4f6ee8;
 }
 .weathersummary {
     text-align: center;
