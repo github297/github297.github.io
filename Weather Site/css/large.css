@@ -88,19 +88,7 @@ form label.sbs {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-table {
-    background-color: #8b8be1;
-    }
-    table th {
-        text-align: center;
-        border: 1px solid black;
-        color: #e8e8e8;
-    }
-    table td {
-        text-align: center;
-        border: 1px solid black;
-        padding: 2px 4px;
-    }
+
 /*----------- FOOTER --------------*/
 footer {
     clear: both;
