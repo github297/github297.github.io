@@ -9,12 +9,8 @@ document.getElementById('description').innerHTML = weatherInfo.weather[0].descri
 document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp;
 document.getElementById('windSpeed').innerHTML = weatherInfo.wind.speed;
 document.getElementById('humidity').innerHTML = weatherInfo.main.humidity;
-document.getElementById('maxTemp').innerHTML = weatherInfo.main.temp_max;
-
-
 
 const iconcode = weatherInfo.weather[0].icon;
-
 
 const icon_path = "https://openweathermap.org/img/w/" + iconcode + ".png";
 console.log(icon_path);
