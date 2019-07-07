@@ -24,7 +24,6 @@ function assembleData(x) {
 	townInfo += "<p>Year founded: "+weatherInfo.towns[x].yearFounded+"</p>";
 	townInfo += "<p>Current Population: "+weatherInfo.towns[x].currentPopulation+"</p>";
 	townInfo += "<p>Rainfall: "+weatherInfo.towns[x].averageRainfall+"</p>";
-	tonnInfo += "<p>Events: "+weatherInfo.towns[x].events+"</p>";
          
 	return townInfo;
 }
