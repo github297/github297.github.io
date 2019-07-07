@@ -170,6 +170,7 @@ main h1 {
     background-color: #4f6ee8;
     clear: both;
     border: 2px #4f6ee8;
+    padding: 1rem;
 }
 .events section {
     flex-basis: 96%;
