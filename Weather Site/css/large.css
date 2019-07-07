@@ -59,9 +59,9 @@ main figure.myphoto img{
     padding: 5px;
     text-align: center;
 }
-
-.norm:hover {box-shadow: 0 0 50px #333;} 
-
+.norm:hover {
+    box-shadow: 0 0 50px #333;
+} 
 div.gallery figure {
     flex-basis: 29%;    
 } 
