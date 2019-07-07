@@ -149,7 +149,7 @@ main h1 {
     display: flex; 
     flex-wrap: wrap;
     text-align: center;
-    background-color:white;
+    background-color:#f6ebaa;
     clear: both;
     border: 2px #4f6ee8;
 }
@@ -167,7 +167,7 @@ main h1 {
     display: flex; 
     flex-wrap: wrap;
     text-align: center;
-    background-color: #f6ebaa;
+    background-color: #4f6ee8;
     clear: both;
     border: 2px #4f6ee8;
 }
