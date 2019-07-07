@@ -124,6 +124,7 @@ iframe {
 }
 table {
     background-color: #8b8be1;
+    width: 80%;
 }
 table th {
     text-align: center;
