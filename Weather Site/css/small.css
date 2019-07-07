@@ -163,10 +163,6 @@ main h1 {
     width: 100%;  
     border: 2px #4f6ee8;
 }
-.event {
-    font-family: 'Roboto';
-    color: #4f6ee8;
-}
 .events {
     display: flex; 
     flex-wrap: wrap;
