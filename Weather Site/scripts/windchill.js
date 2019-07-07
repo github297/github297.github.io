@@ -1,7 +1,7 @@
-let temp = parseInt(document.getElementById("currentTemp").innerHTML);
+let tempF = parseInt(document.getElementById("maxTemp").innerHTML);
 
-let chill = parseInt(document.getElementById("windSpeed").innerHTML);
+let speed = parseInt(document.getElementById("windSpeed").innerHTML);
 
-var result = 36.74 + (0.6215 * temp) - (35.75 * (chill * 0.16 + (0.4275 * temp * (chill * 0.16))));
+var formula = 35.74 + 0.6215* tempF + (0.4275*tempF - 35.75)* Math.pow(speed, 0.16); 
 
-document.getElementById("wchill").innerHTML = result;
+document.getElementById("wchill").innerHTML = formula;
