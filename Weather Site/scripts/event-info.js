@@ -2,20 +2,20 @@ const requestObject1 = new XMLHttpRequest();
 
 const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
-let weatherInfo;
+let weatherInfo1;
 requestObject1.open("GET", requestURL);
 requestObject1.send();
 requestObject1.onload = function() {
     weatherInfo1 = JSON.parse(requestObject1.responseText);
-    console.log(weatherInfo);
+    console.log(weatherInfo1);
 
 
-	document.getElementById("fishEvents").innerHTML = assembleData(1);
-	document.getElementById("sodaEvents").innerHTML = assembleData(4);
-	document.getElementById("prestonEvents").innerHTML = assembleData(5);
+	document.getElementById("fishEvents").innerHTML = assembleData1(1);
+	document.getElementById("sodaEvents").innerHTML = assembleData1(4);
+	document.getElementById("prestonEvents").innerHTML = assembleData1(5);
 }
 
-function assembleData(x) {
+function assembleData1(x) {
 
 	console.log(weatherInfo1.towns[x]);
 	
