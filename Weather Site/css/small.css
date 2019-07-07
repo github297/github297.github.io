@@ -163,6 +163,20 @@ main h1 {
     width: 100%;  
     border: 2px #4f6ee8;
 }
+.events {
+    display: flex; 
+    flex-wrap: wrap;
+    text-align: center;
+    background-color:white;
+    clear: both;
+    border: 2px #4f6ee8;
+}
+.events section {
+    flex-basis: 96%;
+    border: 2px #4f6ee8;
+    clear: both;
+    margin: 1rem 2%;
+}
 .weathersummary {
     text-align: center;
     font-size: 1.3rem;

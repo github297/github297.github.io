@@ -76,6 +76,9 @@ div.row {
 .towns section {
     flex-basis: 46%;
 }
+.events section {
+    flex-basis: 46%;
+}
 .weathersummary {
     text-align: center;
     font-size: 1.3rem;
