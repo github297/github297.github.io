@@ -1,0 +1,108 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+nav button {display: none;}
+    
+header, nav, main, footer {
+    max-width: 64rem;
+    margin:auto;
+}
+
+/*----------- BODY --------------*/
+
+
+/*----------- HEADER --------------*/
+
+header h1 {
+    font-size: 2rem; margin-top: 1rem; margin-left: 1.5rem;
+}
+header h2 {
+    font-size: 1.5rem; margin-left: 1.5rem;
+}
+/*----------- NAVIGATION --------------*/
+
+nav ul.hide {
+    display: block;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
+}
+.weathersummary {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: radial-gradient(#4f6ee8,#8b8be1);
+    border: 1px solid #000;
+    padding: .5rem;
+    box-shadow: 0 0 30px #777;
+}
+main figure.myphoto {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+main figure.myphoto img{
+    width: 100%;
+}
+#forecast {
+    display: block;
+    background-color: #8b8be1;
+    border: 1px solid #4f6ee8;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.norm:hover {
+    box-shadow: 0 0 50px #333;
+} 
+div.gallery figure {
+    flex-basis: 29%;    
+} 
+div.row section:nth-child(2) {
+    width: 50%; float: left; margin: 0; padding: 0; height: 230px;
+}
+div.row section:nth-child(3) {
+    width: 50%; float: left; margin: 0; padding: 0; height: 230px;
+}
+form label.sbs {
+    padding: .4rem 0;
+}
+.towns {
+    flex-basis: 29%;
+    border: 2px #4f6ee8;
+}
+.towns section {
+    flex-basis: 29%;
+    border: 2px #4f6ee8;
+}
+.events {
+    flex-basis: 29%;
+    border: 2px #4f6ee8;
+}
+.events section {
+    flex-basis: 29%;
+    border: 2px #4f6ee8;
+}
+.weathersummary {
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    clear: both;
+    background-color: #8b8be1;
+    padding: .5rem 2%;
+    text-align: center;
+}
+

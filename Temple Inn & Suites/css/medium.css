@@ -1,0 +1,96 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+nav button {display: none;}
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+header img {
+    width:auto;
+}
+header h1 {
+    font-size: 2rem; margin-top: 1rem; margin-left: 1.5rem;
+}
+header h2 {
+    font-size: 1.5rem; margin-left: 1.5rem;
+}
+/*----------- NAVIGATION --------------*/
+nav ul {
+    margin-left: 2%;
+}
+nav ul.hide {
+    display: block;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+        padding: .5rem 1rem;}
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+.norm:hover {box-shadow: 0 0 50px #333;} 
+
+.hide {
+    display: block;
+}
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
+}
+.weathersummary {
+    position: absolute;
+    top: 15px;
+    left: 15px;`
+    background: radial-gradient(#4f6ee8,#8b8be1);
+    border: 1px solid #000;
+    padding: .5rem;
+    box-shadow: 0 0 30px #777;
+}
+main figure.myphoto {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+main figure.myphoto img{
+    width: 100%;
+}
+div.gallery figure {
+    flex-basis: 46%;    
+    }
+div.row section:nth-child(2) {
+    width: 50%; float: left; margin: 0; padding: 0; height: 230px;
+}
+div.row section:nth-child(3) {
+    width: 50%; float: left; margin: 0; padding: 0; height: 230px;
+}
+div.row {
+    clear: both;
+}
+.towns section {
+    flex-basis: 46%;
+}
+.events section {
+    flex-basis: 46%;
+}
+.weathersummary {
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*----------- FOOTER --------------*/
+
+footer {
+    clear: both;
+    background-color: #8b8be1;
+    padding: .5rem 2%;
+    text-align: center;
+}
