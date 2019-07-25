@@ -87,6 +87,9 @@ div.contact {
     display: flex; 
     flex-wrap: wrap;
 }
+div.footer {
+    background-color: #FFED4C;
+}
 div.gallery figure {
     flex-basis: 96%;
     margin: 1rem 2%;
