@@ -29,6 +29,10 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
+div.templepage {
+    display: flex;
+    flex-wrap: wrap;
+}
 .herodiv {
     margin: 10px auto;
     position: relative;
@@ -50,15 +54,6 @@ main figure.myphoto {
 }
 main figure.myphoto img{
     width: 100%;
-}
-#forecast {
-    display: block;
-    background-color: #8b8be1;
-    border: 1px solid #4f6ee8;
-    border-collapse: collapse;
-    border-spacing: 10px;
-    padding: 5px;
-    text-align: center;
 }
 .norm:hover {
     box-shadow: 0 0 50px #333;

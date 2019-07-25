@@ -90,6 +90,10 @@ div.contact {
 div.footer {
     background-color: #FFED4C;
 }
+div.templepage {
+    display: flex;
+    flex-wrap: wrap;
+}
 div.gallery figure {
     flex-basis: 96%;
     margin: 1rem 2%;
