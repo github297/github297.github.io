@@ -90,26 +90,11 @@ div.contact {
 div.footer {
     background-color: #FFED4C;
 }
-div.templepage {
+div.temples {
     display: flex;
     flex-wrap: wrap;
 }
-div.gallery figure {
-    flex-basis: 96%;
-    margin: 1rem 2%;
-}
-div.gallery figure img {
-    width: 100%;  
-}
-.herodiv {
-    margin: 10px auto;
-    position: relative;
-    width: 100%;
-}
-.herodiv figure.herodiv img{
-    width: 100%;
-}
-.weathersummary {
+.weather {
     position: absolute;
     top: 15px;
     left: 15px;
