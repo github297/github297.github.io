@@ -183,7 +183,7 @@ main h1 {
 /*----------- FORM ---------------*/
 form fieldset {
     margin: 2rem 0;
-    border: 2.5px solid #5c358f;
+    border: 2.5px solid #FFED4C;
     border-radius: 10px;
     padding: 1rem 2%;
     
@@ -197,7 +197,7 @@ form legend {
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: #13389c;
+    color: #FFED4C;
     font-size: 1.3rem;
 }
 form label.top input, form label.top select {
@@ -220,7 +220,7 @@ form label.mid {
 }
 form input.submitBtn {
     border: none;
-    background-color: #5c358f;
+    background-color: #FFED4C;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -229,10 +229,10 @@ form input.submitBtn {
     max-width: 20rem;
 }
 form label.top input:required {
-    border-left: salmon 4px;
+    border-left: #D1DFFC 4px;
 }
 form label.top input:required:valid {
-    border-left: salmon 4px;   
+    border-left: #D1DFFC 4px; 
 }
 /*----------- Footer --------------*/
 footer {
