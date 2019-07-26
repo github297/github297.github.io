@@ -44,7 +44,6 @@ div.temples {
     left: 5px;
     border: 1px white;
     padding: .5rem;
-    box-shadow: 0 0 10px #777;
 }
 .hometext {
     display: flex;
