@@ -115,13 +115,12 @@ div.temples {
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-.home {
+.hometext {
     display: flex;
     flex-wrap: wrap;
 }
-.homeinfo {
-    display: flex;
-    flex-wrap: wrap;
+.homeimg {
+    
 }
 
 main h1 {

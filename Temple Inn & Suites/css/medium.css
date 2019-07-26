@@ -56,13 +56,12 @@ main {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-.home {
+.hometext {
     display: flex;
     flex-wrap: wrap;
 }
-.homeinfo {
-    display: flex;
-    flex-wrap: wrap;
+.homeimg {
+    
 }
 
 --------- FOOTER --------------*/

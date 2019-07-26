@@ -46,13 +46,12 @@ div.temples {
     padding: .5rem;
     box-shadow: 0 0 10px #777;
 }
-.home {
+.hometext {
     display: flex;
     flex-wrap: wrap;
 }
-.homeinfo {
-    display: flex;
-    flex-wrap: wrap;
+.homeimg {
+    
 }
 
 .norm:hover {
