@@ -66,6 +66,9 @@ figure {
 figure img {
     width: 100%;
 }
+form label.mid {
+    padding: .4rem 0;
+}
 /*----------- FOOTER --------------*/
 div.footer {
     text-align: center;
