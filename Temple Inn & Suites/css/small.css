@@ -17,7 +17,7 @@ header {
     padding: 1.8rem 3%;
     background-color: #FFED4C;
     display: grid;
-    grid-template-columns: 130px center;
+    grid-template-columns: 130px auto;
 }
 header img{
     float: left; 
