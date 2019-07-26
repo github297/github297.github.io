@@ -30,7 +30,7 @@ header img{
 header h1 {
     font-family: 'Helvetica', sans-serif;
     font-size: 1.3rem;
-    color: #FFED4C;
+    color: white;
     margin-top: 1rem;
     margin: 0;
 }
@@ -38,7 +38,7 @@ header h2 {
     font-family: 'Helvetica', sans-serif; 
     font-weight: normal; 
     font-size: 1rem; 
-    color: #FFED4C;
+    color: white;
     margin: 0; 
 }
 /*----------- NAVIGATION --------------*/
