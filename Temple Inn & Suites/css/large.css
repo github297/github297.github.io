@@ -46,6 +46,13 @@ div.temples {
     padding: .5rem;
     box-shadow: 0 0 10px #777;
 }
+.home {
+    display: flex; 
+    flex-wrap: wrap;
+}
+.homeinfo {
+    position: relative;
+}
 main figure.myphoto {
     width: 50%;
     margin: 0 0 0 2%;

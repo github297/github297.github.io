@@ -116,10 +116,11 @@ div.temples {
     font-family: 'Roboto', sans-serif;
 }
 .home {
-    float:left;
+    display: flex; 
+    flex-wrap: wrap;
 }
 .homeinfo {
-
+    position: relative;
 }
 main figure.myphoto {
     width: 50%;
@@ -148,8 +149,7 @@ main h1 {
     padding: 0;
 }
 .towns {
-    display: flex; 
-    flex-wrap: wrap;
+    
     text-align: center;
     background-color:#f6ebaa;
     clear: both;
