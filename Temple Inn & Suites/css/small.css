@@ -185,6 +185,7 @@ form label.top input:required:valid {
 div.footer {
     text-align: center;
     background-color: #FEFFD6;
+    color: #D1DFFC;
 }
 footer {
     font-family: 'Roboto', sans-serif;
