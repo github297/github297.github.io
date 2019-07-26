@@ -39,7 +39,7 @@ document.getElementById('weather_icon2').src = icon_path2;
 }
 
 const weatherObject3 = new XMLHttpRequest();
-weatherObject3.open("GET","https://api.openweathermap.org/data/2.5/weather?zip=02487,us&appid=0e2291c05d0d27dffb42a2effa870708&units=imperial", true )
+weatherObject3.open("GET","https://api.openweathermap.org/data/2.5/weather?zip=02108,us&appid=0e2291c05d0d27dffb42a2effa870708&units=imperial", true )
 weatherObject3.send();
 weatherObject3.onload = function() {
     let weatherInfo3 = JSON.parse(weatherObject3.responseText)
