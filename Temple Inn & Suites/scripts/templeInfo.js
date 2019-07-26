@@ -1,6 +1,6 @@
 const requestObject = new XMLHttpRequest();
 
-const requestURL = "https://github.com/github297/github297.github.io/blob/master/Temple%20Inn%20%26%20Suites/scripts/json.js;
+const requestURL = "https://github.com/github297/github297.github.io/blob/master/Temple%20Inn%20%26%20Suites/scripts/temple.json";
 
 let templeInfo;
 requestObject.open("GET", requestURL);
