@@ -57,15 +57,7 @@ main figure.myphoto img{
 .norm:hover {
     box-shadow: 0 0 50px #333;
 } 
-div.gallery figure {
-    flex-basis: 29%;    
-} 
-div.row section:nth-child(2) {
-    width: 50%; float: left; margin: 0; padding: 0; height: 230px;
-}
-div.row section:nth-child(3) {
-    width: 50%; float: left; margin: 0; padding: 0; height: 230px;
-}
+
 form label.sbs {
     padding: .4rem 0;
 }
@@ -85,7 +77,7 @@ form label.sbs {
     flex-basis: 29%;
     border: 2px #4f6ee8;
 }
-.weathersummary {
+.weather {
     text-align: center;
     font-size: 1.3rem;
     color: white;

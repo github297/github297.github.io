@@ -102,6 +102,9 @@ div.temples {
     border: 1px white;
     padding: .5rem;
     box-shadow: 0 0 30px white;
+    font-size: 1.3rem;
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 main figure.myphoto {
     width: 50%;
