@@ -8,22 +8,19 @@ header, nav, main, footer {
     margin:auto;
 }
 
-/*----------- BODY --------------*/
-
-
 /*----------- HEADER --------------*/
-
 header h1 {
     font-size: 2rem; margin-top: 1rem; margin-left: 1.5rem;
 }
 header h2 {
     font-size: 1.5rem; margin-left: 1.5rem;
 }
-/*----------- NAVIGATION --------------*/
 
+/*----------- NAVIGATION --------------*/
 nav ul.hide {
     display: block;
 }
+
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
@@ -56,10 +53,6 @@ div.temples {
 .norm:hover {
     box-shadow: 0 0 50px #333;
 } 
-
-form label.sbs {
-    padding: .4rem 0;
-}
 figure {
     margin: 0 0 2rem 5.5rem; width: 80%;
 }
@@ -74,7 +67,6 @@ div.footer {
     text-align: center;
     background-color: #5d576b;
     color: #D1DFFC;
-    
 }
 footer {
     clear: both;

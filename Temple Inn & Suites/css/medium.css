@@ -2,9 +2,6 @@
 @media only screen and (min-width: 35rem) {
 
 nav button {display: none;}
-/*----------- BODY --------------*/
-
-
 
 /*----------- HEADER --------------*/
 header img {
@@ -16,6 +13,7 @@ header h1 {
 header h2 {
     font-size: 1.5rem; margin-left: 1.5rem;
 }
+
 /*----------- NAVIGATION --------------*/
 nav ul {
     margin-left: 2%;
@@ -27,15 +25,17 @@ nav ul li {
     float: left;
 }
 nav ul li a {
-        padding: .5rem 1rem;}
+    padding: .5rem 1rem;
+}
 
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
     min-height: 10rem;
 }
-.norm:hover {box-shadow: 0 0 50px #333;} 
-
+.norm:hover {
+    box-shadow: 0 0 50px #333;
+} 
 .hide {
     display: block;
 }
@@ -68,6 +68,7 @@ figure {
 figure img {
     width: 100%;
 }
+
 /*--------- FOOTER --------------*/
 div.footer {
     text-align: center;

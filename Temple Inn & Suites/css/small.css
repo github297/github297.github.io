@@ -10,7 +10,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-family: 'Arial', sans-serif;
     font-size: 20px;
+    font-kerning: auto;
 }
+
 /*----------- HEADER --------------*/
 header {
     font-family: 'Corbel', sans-serif;
@@ -40,6 +42,7 @@ header h2 {
     color: #5D576B;
     margin: 0; 
 }
+
 /*----------- NAVIGATION --------------*/
 nav button {
     font-size:  1.5rem;
@@ -77,6 +80,7 @@ nav ul li.active a {
 nav ul.hide {
     display: none;
 }
+
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
@@ -152,18 +156,17 @@ figure img {
 main h1 {
     padding: 0;
 }
-.services{ 
+.services { 
     font-family: 'Roboto', 'Helvetica', sans-serif;
     color: #5D576B;
-
 }
+
 /*----------- FORM ---------------*/
 form fieldset {
     margin: 2rem 0;
     border: 2px solid #FFED4C;
     border-radius: 10px;
     padding: .5rem 2%;
-    
 }
 form legend {
     color: #5D576B;
@@ -210,6 +213,7 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: #FFED4C 4px; 
 }
+
 /*----------- Footer --------------*/
 div.footer {
     text-align: center;
@@ -226,6 +230,7 @@ footer {
     clear: both;
     padding: .25rem 1%;
 }
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
