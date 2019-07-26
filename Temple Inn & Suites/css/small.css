@@ -215,6 +215,8 @@ div.footer {
     text-align: center;
     background-color: #5D576B;
     color: #D1DFFC;
+    margin: 0;
+    padding: 0;
 }
 footer {
     font-family: 'Roboto', sans-serif;
