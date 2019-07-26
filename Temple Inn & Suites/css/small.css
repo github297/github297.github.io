@@ -145,7 +145,12 @@ figure img {
 main h1 {
     padding: 0;
 }
+.services{ 
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    background-color: #FEFFD6;
+    color: #5D576B;
 
+}
 /*----------- FORM ---------------*/
 form fieldset {
     margin: 2rem 0;
