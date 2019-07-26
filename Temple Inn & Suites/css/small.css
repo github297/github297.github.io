@@ -14,7 +14,7 @@ body {
 /*----------- HEADER --------------*/
 header {
     font-family: 'Corbel', sans-serif;
-    padding: 1.5rem 2%;
+    padding: 1.2rem 2%;
     background-color: #FFED4C;
     display: grid;
     grid-template-columns: 130px auto;
