@@ -15,6 +15,7 @@ body {
 /*----------- HEADER --------------*/
 header {
     font-family: 'Corbel', sans-serif;
+    color: solid black;
     padding: .5rem 2%;
     background-color: #FFED4C;
     display: grid;
@@ -30,7 +31,6 @@ header img{
 header h1 {
     font-family: 'Helvetica', sans-serif;
     font-size: 1.3rem;
-    color: #FFED4C;
     margin-top: 1rem;
     margin: 0;
 }
@@ -38,7 +38,6 @@ header h2 {
     font-family: 'Helvetica', sans-serif; 
     font-weight: normal; 
     font-size: 1rem; 
-    color: #FFED4C;
     margin: 0; 
 }
 /*----------- NAVIGATION --------------*/
