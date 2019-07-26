@@ -122,67 +122,11 @@ div.temples {
     display: flex;
     flex-wrap: wrap;
 }
-main figure.myphoto {
-    width: 50%;
-    margin: 0 0 0 2%;
-    float: right;
-}
-main figure.myphoto img {
-    width: 100%;
-}
-main figure.myphoto figcaption {
-    text-align: center;font-size: .75rem
-}
-figure {
-    margin: 0; width: 100%;
-}
-figure img {
-    width: 100%;
-}
-iframe {
-    width: 100%; height: 300px;
-}
-div.row {
-    background-color: #FFED4C;
-}
+
 main h1 {
     padding: 0;
 }
-.towns {
-    
-    text-align: center;
-    background-color:#f6ebaa;
-    clear: both;
-    border: 2px #4f6ee8;
-    color: #4f6ee8;
-}
-.towns section {
-    flex-basis: 96%;
-    border: 2px #4f6ee8;
-    clear: both;
-    margin: 1rem 2%;
-}
-.towns section img {
-    width: 100%;  
-    border: 2px #4f6ee8;
-}
-.events {
-    display: flex; 
-    flex-wrap: wrap;
-    text-align: center;
-    background-color: white;
-    clear: both;
-    border: 2px #4f6ee8;
-    padding: 1rem;
-    font-family: 'Roboto';
-    color: #4f6ee8;
-}
-.events section {
-    flex-basis: 96%;
-    border: 2px #4f6ee8;
-    clear: both;
-    margin: 1rem 2%;
-}
+
 .weather {
     font-family: 'Roboto', sans-serif;
     text-align: center;
