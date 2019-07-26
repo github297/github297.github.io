@@ -45,8 +45,6 @@
 <main>
 
 <div> 
-
-<section>
     <h2>Make a Reservation with Us</h2>   
 <form method="get" action="thanks.html">
         <select name="subject">
@@ -58,16 +56,19 @@
         </select>
 </div>
 
-<div>
+
 <fieldset>
+   
     <legend>Customer Information</legend>
+    <div>
         <label class="top">Full Name* <input type="text" name="fullname" required></label>
         <label class="top">Email* <input type="email" name="email" placeholder="youremail@gmail.com" required></label>  
         <label class="top">Phone* <input type="tel" name="phone" placeholder="1235555555" required></label>
         <label class="top">Home State/Country* <input type="text" name="state/country" required></label>
         <label class="top">Zipcode* <input type="number" name="zipcode" required></label>
-    </fieldset>
-</div>     
+    </div> 
+</fieldset>
+    
 <fieldset>
     <legend>Date/Rooms/Availability</legend>
 <div>
@@ -91,9 +92,8 @@
         <label class="mid"><input type="text" name="comments"></label>
 <input type="submit" value = "Send Information" class="submitBtn"> 
 </form>
+</div>
 </fieldset>
-</section>
- </div>
 
  <div class="footer">
 <section>
