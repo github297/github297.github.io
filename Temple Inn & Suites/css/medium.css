@@ -61,7 +61,7 @@ main {
     flex-wrap: wrap;
 }
 .homeimg {
-    
+    position: center;
 }
 
 /*--------- FOOTER --------------*/

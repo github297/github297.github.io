@@ -120,7 +120,7 @@ div.temples {
     flex-wrap: wrap;
 }
 .homeimg {
-    
+    position: center;
 }
 
 main h1 {

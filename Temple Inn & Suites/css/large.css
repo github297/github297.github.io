@@ -51,7 +51,7 @@ div.temples {
     flex-wrap: wrap;
 }
 .homeimg {
-    
+    position: center;
 }
 
 .norm:hover {
