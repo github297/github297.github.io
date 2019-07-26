@@ -88,6 +88,9 @@ h1, h2, h4, h5, h6 {
     font-family: Helvetica, Arial, sans-serif;
     color: #5D576B;
 }
+div.h3grey {
+    color: #5D576B;
+}
 div.contact {
     display: flex; 
     flex-wrap: wrap;
