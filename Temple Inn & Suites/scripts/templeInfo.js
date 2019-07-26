@@ -24,7 +24,7 @@ function assembleData(x) {
 	templeInfo += "<p>Address: "+templeInfo.temples[x].address+"</p>";
 	templeInfo += "<p>Telephone: "+templeInfo.temples[x].telephone+"</p>";
 	templeInfo += "<p>Service: "+templeInfo.temples[x].service+"</p>"; 
-	templeInfo += "<p>Schedule: "+templeInfo.temples[x].schedule+"</p>";
+	templeInfo += "<p>Schedule: "+templeInfo.teamples[x].schedule+"</p>";
 
 	return templeInfo;
 }
