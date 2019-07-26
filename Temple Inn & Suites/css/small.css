@@ -120,7 +120,7 @@ div.temples {
     flex-wrap: wrap;
 }
 .homeinfo {
-    position: relative;
+    float: left;
 }
 main figure.myphoto {
     width: 50%;
