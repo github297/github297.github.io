@@ -14,10 +14,10 @@ body {
 /*----------- HEADER --------------*/
 header {
     font-family: 'Corbel', sans-serif;
-    padding: 2rem 2%;
+    padding: 1.8rem 2%;
     background-color: #FFED4C;
     display: grid;
-    grid-template-columns: 105px auto;
+    grid-template-columns: 100px auto;
 }
 header img{
     float: left; 
