@@ -48,7 +48,7 @@ div.temples {
 }
 .home {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 .homeinfo {
     position: relative;
