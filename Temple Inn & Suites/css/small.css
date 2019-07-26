@@ -126,6 +126,8 @@ figure img {
     font-family: 'Roboto', 'Helvetica', sans-serif;
     color: #5D576B;
     background-color: #FEFFD6;
+    text-align: center;
+    font-size: 1.2rem;
     
 }
 .homeimg {
