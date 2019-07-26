@@ -59,9 +59,6 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
-.homeimg {
-    position: center;
-}
 figure {
     margin: 0; width: 100%;
 }
