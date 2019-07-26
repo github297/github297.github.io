@@ -1,0 +1,54 @@
+{
+  "temples" : [
+  {
+    "name": "Washington D.C.",
+    "yearDedicated": 1974,
+    "address": "9900 Stoneybrook Drive Kensington, MD 20895",
+    "telephone": 301-588-0650,
+    "service" : "Rental Clothing, Cafeteria, Distribution Center",
+    "schedule" : [
+      "This temple is currently closed for renovations"
+    ]
+  },
+  {
+    "name": "Fish Haven",
+    "photo": "fishhaven.jpg",
+    "motto": "This is Fish Heaven.",
+    "yearFounded": 1864,
+    "currentPopulation": 501,
+    "averageRainfall": 14.20,
+    "events" : [
+      "April 1: How Big Was That Fish Day",
+      "May 15-30: Rush the Creek Days",
+      "July 24: Bear Lake Blunder Run",
+      "December 12: Light the Tree"
+    ]
+  },
+  {
+    "name": "Greenville",
+    "photo": "greenville.jpg",
+    "motto": "Green is our way of life.",
+    "yearFounded": 1805,
+    "currentPopulation": 33458,
+    "averageRainfall": 25,
+    "events" : [
+      "February 10-12: Greenbration",
+      "May 8 - 18: Greenville Founder Days",
+      "June 20: Verde and Valiant Day",
+      "November 15-16: Greensome Gathering"
+    ]
+  },
+  {
+    "name": "Placerton",
+    "photo": "placerton.jpg",
+    "motto": "Positive Placement in Placerton.",
+    "yearFounded": 1946,
+    "currentPopulation": 512,
+    "averageRainfall": 39,
+    "events" : [
+      "July 4: A Blaze of Glory",
+      "October 20: Fall through Fall"
+    ]
+  }
+]
+}
