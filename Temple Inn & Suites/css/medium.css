@@ -63,7 +63,15 @@ main {
 .homeimg {
     position: center;
 }
-
+figure {
+    margin: 0; width: 100%;
+}
+figure img {
+    width: 100%;
+}
+iframe {
+    width: 100%; height: 300px;
+}
 /*--------- FOOTER --------------*/
 div.footer {
     text-align: center;
