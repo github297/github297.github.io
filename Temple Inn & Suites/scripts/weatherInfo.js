@@ -50,7 +50,7 @@ document.getElementById('currentTemp3').innerHTML = weatherInfo3.main.temp;
 document.getElementById('windSpeed3').innerHTML = weatherInfo3.wind.speed;
 document.getElementById('humidity3').innerHTML = weatherInfo3.main.humidity;
 
-const iconcode3 = weatherInfo.weather[0].icon;
+const iconcode3 = weatherInfo3.weather[0].icon;
 
 const icon_path3 = "https://openweathermap.org/img/w/" + iconcode3 + ".png";
 console.log(icon_path3);
