@@ -62,9 +62,12 @@ form label.sbs {
     padding: .4rem 0;
 }
 /*----------- FOOTER --------------*/
+div.footer {
+    text-align: center;
+    background-color: #FEFFD6;
+}
 footer {
     clear: both;
     padding: .5rem 2%;
     text-align: center;
 }
-
