@@ -104,9 +104,8 @@ div.temples {
     display: flex;
     flex-wrap: wrap;
 }
-
 .weather {
-    float: left;
+    position: absolute;
     top: 15px;
     left: 15px;
     border: 1px white;
@@ -115,6 +114,12 @@ div.temples {
     font-size: 1.3rem;
     color: black;
     font-family: 'Roboto', sans-serif;
+}
+.home {
+    float:left;
+}
+.homeinfo {
+
 }
 main figure.myphoto {
     width: 50%;
