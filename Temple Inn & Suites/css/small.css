@@ -122,11 +122,13 @@ figure img {
     width: 100%;
 }
 .hometext {
-    display: flex;
-    flex-wrap: wrap;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    color: #5D576B;
+    background-color: #FEFFD6;
+    
 }
 .homeimg {
-    position: center;
+    margin: 0 0 0 2;
 }
 
 main h1 {
@@ -143,7 +145,7 @@ form fieldset {
 }
 form legend {
     color: #555;
-    margin: 0 1rem;
+    margin: 0 1rem;f
     padding: 0 .5rem;
     
 }
