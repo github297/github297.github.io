@@ -45,10 +45,6 @@ div.temples {
     border: 1px white;
     padding: .5rem;
     box-shadow: 0 0 10px #777;
-    text-align: center;
-    font-size: 1.3rem;
-    color: white;
-    font-family: 'Roboto', sans-serif;
 }
 .home {
     display: flex;
@@ -58,11 +54,50 @@ div.temples {
     display: flex;
     flex-wrap: wrap;
 }
+main figure.myphoto {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+main figure.myphoto img{
+    width: 100%;
+}
 .norm:hover {
     box-shadow: 0 0 50px #333;
+} 
+div.gallery figure {
+    flex-basis: 29%;    
+} 
+div.row section:nth-child(2) {
+    width: 50%; float: left; margin: 0; padding: 0; height: 230px;
+}
+div.row section:nth-child(3) {
+    width: 50%; float: left; margin: 0; padding: 0; height: 230px;
 }
 form label.sbs {
     padding: .4rem 0;
+}
+.towns {
+    flex-basis: 29%;
+    border: 2px #4f6ee8;
+}
+.towns section {
+    flex-basis: 29%;
+    border: 2px #4f6ee8;
+}
+.events {
+    flex-basis: 29%;
+    border: 2px #4f6ee8;
+}
+.events section {
+    flex-basis: 29%;
+    border: 2px #4f6ee8;
+}
+.weathersummary {
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*----------- FOOTER --------------*/
