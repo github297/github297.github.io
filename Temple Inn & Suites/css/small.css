@@ -120,7 +120,8 @@ div.temples {
     flex-wrap: wrap;
 }
 .homeinfo {
-
+    display: flex;
+    flex-wrap: wrap;
 }
 main figure.myphoto {
     width: 50%;
