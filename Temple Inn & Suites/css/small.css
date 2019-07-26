@@ -144,7 +144,12 @@ figure img {
 .homeimg {
     margin: 0 0 0 2;
 }
-
+.homecenter {
+    color: #5D576B;
+    background-color: #FEFFD6;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    
+}
 main h1 {
     padding: 0;
 }
