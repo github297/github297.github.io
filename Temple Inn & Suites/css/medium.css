@@ -69,6 +69,7 @@ div.footer {
     text-align: center;
     background-color: #5D576B;
     color: #D1DFFC;
+    position: absolute;
 }
 footer {
     clear: both;
