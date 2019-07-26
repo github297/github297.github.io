@@ -146,9 +146,9 @@ figure img {
 }
 .homecenter {
     color: #5D576B;
-    background-color: #FEFFD6;
     font-family: 'Roboto', 'Helvetica', sans-serif;
-    
+    text-align: center;
+
 }
 main h1 {
     padding: 0;
