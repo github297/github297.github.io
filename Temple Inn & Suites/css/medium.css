@@ -57,8 +57,8 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 .home {
-    display: flex; 
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
 }
 .homeinfo {
     position: relative;
