@@ -33,6 +33,11 @@ div.temples {
     display: flex;
     flex-wrap: wrap;
 }
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
+}
 .weather {
     position: absolute;
     top: 5px;
@@ -40,18 +45,27 @@ div.temples {
     border: 1px white;
     padding: .5rem;
     box-shadow: 0 0 0px #777;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
-    text-align: center;
-    color: white;
+}
+main figure.myphoto {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+main figure.myphoto img{
+    width: 100%;
 }
 .norm:hover {
     box-shadow: 0 0 50px #333;
 } 
-
-
-
-
+div.gallery figure {
+    flex-basis: 29%;    
+} 
+div.row section:nth-child(2) {
+    width: 50%; float: left; margin: 0; padding: 0; height: 230px;
+}
+div.row section:nth-child(3) {
+    width: 50%; float: left; margin: 0; padding: 0; height: 230px;
+}
 form label.sbs {
     padding: .4rem 0;
 }
@@ -71,11 +85,17 @@ form label.sbs {
     flex-basis: 29%;
     border: 2px #4f6ee8;
 }
+.weathersummary {
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
 
 /*----------- FOOTER --------------*/
 footer {
     clear: both;
-    background-color: #D1DFFC;
+    background-color: #8b8be1;
     padding: .5rem 2%;
     text-align: center;
 }
