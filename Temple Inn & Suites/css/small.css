@@ -97,10 +97,9 @@ div.temples {
     flex-wrap: wrap;
 }
 .weather {
-    float: left;
-    top: 15px;
-    left: 15px;
-    background: radial-gradient(#4f6ee8,#8b8be1);
+    position: absolute;
+    top: 5px;
+    left: 5px;
     border: 1px white;
     padding: .5rem;
     box-shadow: 0 0 30px white;
