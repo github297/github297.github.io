@@ -217,8 +217,8 @@ form label.top input:required:valid {
 /*----------- Footer --------------*/
 div.footer {
     text-align: center;
-    background-color: #5D576B;
-    color: #D1DFFC;
+    background-color: #D1DFFC;
+    color: #5D576B;
     margin: 0;
     padding: 0;
     font-size: 1rem;

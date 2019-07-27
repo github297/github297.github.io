@@ -67,12 +67,7 @@ figure img {
 }
 
 /*--------- FOOTER --------------*/
-div.footer {
-    text-align: center;
-    background-color: #5D576B;
-    color: #D1DFFC;
 
-}
 footer {
     clear: both;
     padding: .5rem 2%;
